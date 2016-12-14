@@ -159,6 +159,7 @@ body {
   //padding-top: 50px;
   //-webkit-font-smoothing: antialiased;
   font-weight: 300;  // lightweight thin font
+  background-color: #333;
 }
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -170,7 +171,7 @@ p{
   font-size: 24px;
   color: white;
   text-align: center;
-  width:400px;
+
   margin: 0 auto ;
 
 }
@@ -187,7 +188,17 @@ p{
   font-size:40px;
   font-family: 'Playfair Display', serif;
   letter-spacing: 0.3px;
+}
 
+@media (max-width: 480px) {
+
+  .title{
+    text-align: center;
+    color: @gold;
+    margin-top:10px;
+    font-family: 'Playfair Display', serif;
+
+  }
 }
 
 // Hubspot stuff
@@ -584,7 +595,7 @@ overflow:auto
   padding-right: 0px;
   color: #fff; /* IE8 proofing */
   color: rgba(255,255,255,.50);
-  border: 2px solid transparent;
+  //border: 2px solid transparent;
   height: 42px;
 }
 .navbar-nav > li > a:hover,
@@ -641,7 +652,18 @@ overflow:auto
 
 
 .navbar-toggle {
-  border: 2px solid transparent;
+  border: 2px solid @gold;
+  margin-right: 30px;
+  margin-top: 30px
+
+}
+
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+  background: @gold;
 }
 
 // Tweak the brand
@@ -720,122 +742,171 @@ overflow:auto
 
 // Hero
 // --------------------------------------------------------
-.hero {
+
+
+
+
+//Welcome Start
+
+.welcome {
+      overflow: hidden;
+      //position: relative;
+      background-color: @brand-primary;
+      background: url("../img/fantastic-beasts.jpg") top center;
+      background-size: cover;
+      height: 700px;
+      width: 100%;
+
+      p {
+        width: 440px;
+        height: 62px;
+        font-family: @font-family-source;
+        font-size: 24px;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: 0.3px;
+
+        color: #ffffff;
+        margin: 0 auto ;
+      }
+
+  @media (max-width: 480px) {
+
+    p{  width: 340px;}
+
+
+  }
+}  //Welcome end
+
+//About Start
+
+.about {
   overflow: hidden;
   position: relative;
   background-color: @brand-primary;
   //background: url("../img/fantastic-beasts.jpg") top center;
   background-size: cover;
   height: 700px;
+  img{
+    align-content: center;
+  }
+
+  p {
+
+    font-family: @font-family-source;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: left;
+    width:500px;
+    //font-style: normal;
+    //font-stretch: normal;
+    letter-spacing: 0.3px;
+    color: white;
+  }
+} //About End
 
 
-   img{
-     align-content: center;
-   }
+//Entertain Start
+.entertain {
+      overflow: hidden;
+      position: relative;
+      background-color: @brand-primary;
+      background: url("../img/fantastic-beasts-op.jpg") top center;
+      background-size: cover;
+      height: 700px;
 
 
-      p {
+        p {
+          font-family: @font-family-source;
+          width:700px;
+          font-size: 24px;
+          font-weight: lighter;
+          text-align: center;
+          margin-bottom: 20px;
+          //font-style: normal;
+          //font-stretch: normal;
+          letter-spacing: 0.3px;
+          color: white;
+        }
+}//Entertain End
 
 
-        font-family: @font-family-source;
-        font-size: 16px;
-        font-weight: lighter;
-        text-align: left;
-        //font-style: normal;
-        //font-stretch: normal;
-        letter-spacing: 0.3px;
-        color: white;
 
-    }
-
-
-}
-
-.welcome {
+//Subscription Start
+.subscription{
   overflow: hidden;
   //position: relative;
   background-color: @brand-primary;
-  background: url("../img/fantastic-beasts.jpg") top center;
+  //background: url("../img/fantastic-beasts.jpg") top center;
   background-size: cover;
-
   height: 700px;
   width: 100%;
 
   p {
-    width: 440px;
-    height: 62px;
     font-family: @font-family-source;
+    width:700px;
     font-size: 24px;
-    font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
+    font-weight: lighter;
+    text-align: center;
+    //font-style: normal;
+    //font-stretch: normal;
     letter-spacing: 0.3px;
-
-    color: #ffffff;
-  margin: 0 auto ;
+    color: white;
   }
-}
+}//Subscription End
 
 
-.entertain {
+//How it Works Start
+.howitworks{
   overflow: hidden;
-  position: relative;
+  //position: relative;
   background-color: @brand-primary;
-  background: url("../img/fantastic-beasts-op.jpg") top center;
+  //background: url("../img/fantastic-beasts.jpg") top center;
   background-size: cover;
   height: 700px;
-  .entertain-inner {
-    position: relative;
-    height: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    @media (min-width: @screen-sm-min) {
-      width: @container-sm;
-    }
-    @media (min-width: @screen-md-min) {
-      width: @container-md;
-    }
-    @media (min-width: @screen-lg-min) {
-      width: @container-lg;
-    }
-  }
-  .entertain-image {
-    display: block;
-    height: 50%;
-    //position: absolute;
-    bottom: 0;
-    //left: 5%;
-  }
-  .entertain-content {
-    display: block;
+  width: 100%;
 
-    padding-top: 30px;
-
-    //width: 500px;
+  p {
+    font-family: @font-family-source;
+    width:700px;
+    font-size: 24px;
+    font-weight: lighter;
     text-align: center;
-    overflow: hidden;
-
-    //h2 {
-    //  margin: 0 0 24px;
-    //  padding: 0;
-    //  font-size: 50px;
-    //  color: @gold; //#fff;
-    //  font-family: "Lato", sans-serif;
-    //  letter-spacing: -2px;
-    //  //text-shadow: 0 1px 5px rgba(0, 0, 0, 0.75);
-    //  //text-transform: capitalize;
-    //}
-
-    p {
-      width:600px;
-      font-size: 20px;
-      color: @gray;
-      margin-bottom: 20px;
-      text-align: center;
-    }
-
+    //font-style: normal;
+    //font-stretch: normal;
+    letter-spacing: 0.3px;
+    color: white;
   }
-}
+} //How it Works End
+
+//Contacts Start
+.contacts{
+  overflow: hidden;
+  //position: relative;
+  background-color: @brand-primary;
+  //background: url("../img/fantastic-beasts.jpg") top center;
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+  text-align: center;
+
+
+
+  p {
+    font-family: @font-family-source;
+    width:700px;
+    font-size: 24px;
+    font-weight: lighter;
+    text-align: center;
+    //font-style: normal;
+    //font-stretch: normal;
+    letter-spacing: 0.3px;
+    color: white;
+  }
+}//Contacts End
+
+
 
 // Internal Anchors (must account for fixed header)
 // --------------------------------------------------------
@@ -1082,181 +1153,6 @@ overflow:auto
 
 
 
-
-
-//carousel start
-
-//
-//@intitialPosition: -1400px;
-//@startingPosition: -3205px;
-//
-//
-//
-//.vGradient(@top, @bottom){
-//  background-color: @top;
-//  background-image: -webkit-gradient(linear, top, bottom, from(@top), to(@bottom));
-//  background-image: -webkit-linear-gradient(top, @top, @bottom);
-//  background-image: -moz-linear-gradient(top, @top, @bottom);
-//  background-image: -ms-linear-gradient(top, @top, @bottom);
-//  background-image: -o-linear-gradient(top, @top, @bottom);
-//  background-image: linear-gradient(top, @top, @bottom);
-//}
-//
-//.translate(@left, @top) {
-//  transform:translate(@left, @top);
-//  -ms-transform:translate(@left, @top);
-//  -moz-transform:translate(@left, @top);
-//  -webkit-transform:translate(@left, @top);
-//  -o-transform:translate(@left, @top);
-//}
-//
-//.scale(@width, @height) {
-//  transform: scale(@width, @height);
-//  -ms-transform: scale(@width, @height);
-//  -webkit-transform: scale(@width, @height);
-//  -o-transform: scale(@width, @height);
-//  -moz-transform: scale(@width, @height);
-//}
-//
-//.transition (@args) {
-//  -webkit-transition: @args;
-//  -moz-transition: @args;
-//  -o-transition: @args;
-//  transition: @args;
-//}
-//
-//.roundedCorners(@radius) {
-//  -moz-border-radius: @radius;
-//  -webkit-border-radius: @radius;
-//  border-radius: @radius;
-//}
-//
-//.boxShadow (@args) {
-//  -moz-box-shadow: @args;
-//  -webkit-box-shadow: @args;
-//  box-shadow: @args;
-//}
-//
-//.animate(@args) {
-//  animation: @args;
-//  -moz-animation: @args;
-//  -webkit-animation: @args;
-//  -o-animation: @args;
-//}
-//
-///* =============== KEYFRAMES ===================== */
-//
-//@keyframes zoom {
-//  from {
-//    .scale(.2, .2);
-//    margin-left: -3100px;
-//  }
-//  to {
-//    .scale(1, 1);
-//    margin-left: @startingPosition;
-//  }
-//}
-//
-//@-moz-keyframes zoom {
-//  from {
-//    .scale(.1, .1);
-//    margin-left: -3100px;
-//  }
-//  to {
-//    .scale(1, 1);
-//    margin-left: @startingPosition;
-//  }
-//}
-//
-//@-webkit-keyframes zoom {
-//  from {
-//    .scale(.2, .2);
-//    margin-left: -3100px;
-//  }
-//  to {
-//    .scale(1, 1);
-//    margin-left: @startingPosition;
-//  }
-//}
-//
-//@-o-keyframes zoom {
-//  from {
-//    .scale(.2, .2);
-//    margin-left: -3100px;
-//  }
-//  to {
-//    .scale(1, 1);
-//    margin-left: @startingPosition;
-//  }
-//}
-//
-///* ============== MAIN STYLES ==================== */
-//
-//html {
-//  height: 100%;
-//  width: 100%;
-//}
-//
-//body {
-//  margin: 0;
-//  padding: 0;
-//  height: 100%;
-//  width: 100%;
-//  overflow: hidden;
-//  .vGradient(@black, @darkGray);
-//}
-//
-//.image {
-//  display: inline-block;
-//  margin: 50px 50px 0 50px;
-//  height: 250px;
-//  width: 250px;
-//  .vGradient(@medBlue, @darkBlue);
-//  .roundedCorners(10px);
-//  .boxShadow(3px 3px 10px rgba(0, 0, 0, .5));
-//
-//  &:hover {
-//    cursor: pointer;
-//    .vGradient(lighten(@medBlue, 10%), lighten(@darkBlue, 10%));
-//  }
-//
-//  &:target {
-//    .scale(1.25, 1.25);
-//  }
-//}
-//
-//#carousel-wrapper {
-//  text-align: center;
-//  position: absolute;
-//  top: 50%;
-//  left: 50%;
-//  margin-top: -165px;
-//  margin-left: @startingPosition;
-//  width: 6000px;
-//  .animate(zoom 1s);
-//}
-//
-//.image, #carousel-wrapper {
-//  .transition(all .5s ease-in-out);
-//}
-//
-//.target {
-//  position: absolute;
-//  border: 1px solid red;
-//  width: 25%;
-//  height: 100%;
-//  z-index: 10;
-//}
-//
-//#right-target {
-//  right: 0;
-//}
-//
-//#left-target {
-//  left: 0;
-//}
-//
-
 //buttons
 
 .btn-primary {
@@ -1310,3 +1206,120 @@ overflow:auto
   margin: 0 auto;
 }
 
+.affix {
+  position: fixed;
+  right:0;
+  z-index: 300;
+}
+
+//form
+
+#success-message {
+  opacity: 0;
+}
+
+.col-xs-12.col-sm-12.col-md-12.col-lg-12 {
+  padding: 0 20% 0 20%;
+}
+
+.margin-top-25 {
+  margin-top: 25px;
+}
+
+.form-title {
+  padding: 25px;
+  font-size: 30px;
+  font-weight: 300;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.form-group .form-control {
+  -webkit-box-shadow: none;
+  border-bottom: 1px;
+  border-style: none none solid none;
+  border-radius:0;
+  border-color: #000;
+}
+
+.form-control{
+
+  background: #c6a059;
+  color: #000;
+}
+
+.form-group .form-control:focus {
+  box-shadow: none;
+  border-width: 0 0 2px 0;
+  border-color: #000;
+
+}
+
+textarea {
+  resize: none;
+}
+
+.btn-mod.btn-large {
+  height: auto;
+  padding: 13px 52px;
+  font-size: 15px;
+}
+
+.btn-mod.btn-border {
+  color: #000000;
+  border: 1px solid #000000;
+  background: transparent;
+}
+
+.btn-mod, a.btn-mod {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 4px 13px;
+  color: #fff;
+  background: rgba(34,34,34, .9);
+  border: 1px solid transparent;
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  -o-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  -ms-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+
+.btn-mod.btn-border:hover, .btn-mod.btn-border:active, .btn-mod.btn-border:focus, .btn-mod.btn-border:active:focus {
+  color: #fff;
+  border-color: #000;
+  background: #000;
+  outline: none;
+}
+
+@media only screen and (max-width: 500px) {
+  .btn-mod.btn-large {
+    padding: 6px 16px;
+    font-size: 11px;
+  }
+
+  .form-title {
+    font-size: 20px;
+  }
+}
+
+input, select, textarea{
+  color: blue !important;
+}
+
+.logo {
+  padding: 10px;
+
+
+}

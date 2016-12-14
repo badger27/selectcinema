@@ -5913,6 +5913,7 @@ hr {
 }
 body {
   font-weight: 300;
+  background-color: #333;
 }
 h1,
 h2,
@@ -5933,7 +5934,6 @@ p {
   font-size: 24px;
   color: white;
   text-align: center;
-  width: 400px;
   margin: 0 auto ;
 }
 .title {
@@ -5945,6 +5945,14 @@ p {
   font-size: 40px;
   font-family: 'Playfair Display', serif;
   letter-spacing: 0.3px;
+}
+@media (max-width: 480px) {
+  .title {
+    text-align: center;
+    color: #c5a059;
+    margin-top: 10px;
+    font-family: 'Playfair Display', serif;
+  }
 }
 .share-buttons {
   zoom: 1;
@@ -6238,7 +6246,6 @@ iframe[seamless] {
   color: #fff;
   /* IE8 proofing */
   color: rgba(255, 255, 255, 0.5);
-  border: 2px solid transparent;
   height: 42px;
 }
 .navbar-nav > li > a:hover,
@@ -6261,7 +6268,16 @@ iframe[seamless] {
   border-width: 0px;
 }
 .navbar-toggle {
-  border: 2px solid transparent;
+  border: 2px solid #c5a059;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+  background: #c5a059;
 }
 .navbar-brand {
   font-size: 20px;
@@ -6323,24 +6339,6 @@ iframe[seamless] {
   background-color: #ffffff;
   border-color: #ffffff;
 }
-.hero {
-  overflow: hidden;
-  position: relative;
-  background-color: #1f1f1f;
-  background-size: cover;
-  height: 700px;
-}
-.hero img {
-  align-content: center;
-}
-.hero p {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 16px;
-  font-weight: lighter;
-  text-align: left;
-  letter-spacing: 0.3px;
-  color: white;
-}
 .welcome {
   overflow: hidden;
   background-color: #1f1f1f;
@@ -6361,6 +6359,30 @@ iframe[seamless] {
   color: #ffffff;
   margin: 0 auto ;
 }
+@media (max-width: 480px) {
+  .welcome p {
+    width: 340px;
+  }
+}
+.about {
+  overflow: hidden;
+  position: relative;
+  background-color: #1f1f1f;
+  background-size: cover;
+  height: 700px;
+}
+.about img {
+  align-content: center;
+}
+.about p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  text-align: left;
+  width: 500px;
+  letter-spacing: 0.3px;
+  color: white;
+}
 .entertain {
   overflow: hidden;
   position: relative;
@@ -6369,44 +6391,64 @@ iframe[seamless] {
   background-size: cover;
   height: 700px;
 }
-.entertain .entertain-inner {
-  position: relative;
-  height: 100%;
-  margin-right: auto;
-  margin-left: auto;
-}
-@media (min-width: 768px) {
-  .entertain .entertain-inner {
-    width: 750px;
-  }
-}
-@media (min-width: 992px) {
-  .entertain .entertain-inner {
-    width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-  .entertain .entertain-inner {
-    width: 1170px;
-  }
-}
-.entertain .entertain-image {
-  display: block;
-  height: 50%;
-  bottom: 0;
-}
-.entertain .entertain-content {
-  display: block;
-  padding-top: 30px;
+.entertain p {
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 700px;
+  font-size: 24px;
+  font-weight: lighter;
   text-align: center;
-  overflow: hidden;
-}
-.entertain .entertain-content p {
-  width: 600px;
-  font-size: 20px;
-  color: #aaaaaa;
   margin-bottom: 20px;
+  letter-spacing: 0.3px;
+  color: white;
+}
+.subscription {
+  overflow: hidden;
+  background-color: #1f1f1f;
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+}
+.subscription p {
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 700px;
+  font-size: 24px;
+  font-weight: lighter;
   text-align: center;
+  letter-spacing: 0.3px;
+  color: white;
+}
+.howitworks {
+  overflow: hidden;
+  background-color: #1f1f1f;
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+}
+.howitworks p {
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 700px;
+  font-size: 24px;
+  font-weight: lighter;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: white;
+}
+.contacts {
+  overflow: hidden;
+  background-color: #1f1f1f;
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+  text-align: center;
+}
+.contacts p {
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 700px;
+  font-size: 24px;
+  font-weight: lighter;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: white;
 }
 .anchor {
   display: block;
@@ -6657,4 +6699,105 @@ iframe[seamless] {
   background: none !important;
   overflow: hidden;
   margin: 0 auto;
+}
+.affix {
+  position: fixed;
+  right: 0;
+  z-index: 300;
+}
+#success-message {
+  opacity: 0;
+}
+.col-xs-12.col-sm-12.col-md-12.col-lg-12 {
+  padding: 0 20% 0 20%;
+}
+.margin-top-25 {
+  margin-top: 25px;
+}
+.form-title {
+  padding: 25px;
+  font-size: 30px;
+  font-weight: 300;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.form-group .form-control {
+  -webkit-box-shadow: none;
+  border-bottom: 1px;
+  border-style: none none solid none;
+  border-radius: 0;
+  border-color: #000;
+}
+.form-control {
+  background: #c6a059;
+  color: #000;
+}
+.form-group .form-control:focus {
+  box-shadow: none;
+  border-width: 0 0 2px 0;
+  border-color: #000;
+}
+textarea {
+  resize: none;
+}
+.btn-mod.btn-large {
+  height: auto;
+  padding: 13px 52px;
+  font-size: 15px;
+}
+.btn-mod.btn-border {
+  color: #000000;
+  border: 1px solid #000000;
+  background: transparent;
+}
+.btn-mod,
+a.btn-mod {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 4px 13px;
+  color: #fff;
+  background: rgba(34, 34, 34, 0.9);
+  border: 1px solid transparent;
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: all 0.2s cubic-bezier(0, 0, 0.58, 1);
+  -moz-transition: all 0.2s cubic-bezier(0, 0, 0.58, 1);
+  -o-transition: all 0.2s cubic-bezier(0, 0, 0.58, 1);
+  -ms-transition: all 0.2s cubic-bezier(0, 0, 0.58, 1);
+  transition: all 0.2s cubic-bezier(0, 0, 0.58, 1);
+}
+.btn-mod.btn-border:hover,
+.btn-mod.btn-border:active,
+.btn-mod.btn-border:focus,
+.btn-mod.btn-border:active:focus {
+  color: #fff;
+  border-color: #000;
+  background: #000;
+  outline: none;
+}
+@media only screen and (max-width: 500px) {
+  .btn-mod.btn-large {
+    padding: 6px 16px;
+    font-size: 11px;
+  }
+  .form-title {
+    font-size: 20px;
+  }
+}
+input,
+select,
+textarea {
+  color: blue !important;
+}
+.logo {
+  padding: 10px;
 }
