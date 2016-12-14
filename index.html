@@ -41,8 +41,16 @@
 
       <!-- Fonts -->
       <link rel="stylesheet" type='text/css' href='//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css'>
-      <link rel="stylesheet" type='text/css' href='//fonts.googleapis.com/css?family=Droid+Sans|Lato|Revalia'>
-      <link rel="stylesheet" type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,600,700italic,900,400italic,300'>
+      <!--<link rel="stylesheet" type='text/css' href='//fonts.googleapis.com/css?family=Droid+Sans|Lato|Revalia'>-->
+
+
+      <!--<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">-->
+
+
+      <!--<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">-->
+
+
+      <!--<link rel="stylesheet" type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,600,700italic,900,400italic,300'>-->
 
       <!-- Favicon -->
       <link rel="shortcut icon" href="http://prettystrap.com/themes/the-story/preview/img/favicon.ico" type="image/x-icon">
@@ -76,29 +84,509 @@
 
       <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
       <!--[if lt IE 9]>
+
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
       <![endif]-->
+
+      <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js" type="text/javascript"></script>-->
+      <!--<link type="text/css" rel="stylesheet" href="css/default_skin.css" />-->
+      <link href="css/default_skin_variation.css" type="text/css" rel="stylesheet" />
+      <!--<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js" type="text/javascript"></script>-->
+      <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+      <script type="text/javascript" src="js/jquery.sky.carousel-1.0.2.min.js"></script>
+      <script type="text/javascript">
+        $(function() {
+          $('.sky-carousel').carousel({
+            itemWidth: 170,
+            itemHeight: 240,
+            distance: 15,
+            selectedItemDistance: 50,
+            selectedItemZoomFactor: 1,
+            unselectedItemZoomFactor: 0.67,
+            unselectedItemAlpha: 0.6,
+            motionStartDistance: 170,
+            topMargin: 119,
+            gradientStartPoint: 0.35,
+            gradientOverlayColor: "#3065a2",
+            gradientOverlaySize: 190,
+            reflectionDistance: 1,
+            reflectionAlpha: 0.35,
+            reflectionVisible: true,
+            reflectionSize: 70,
+            selectByClick: true
+          });
+        });
+      </script>
 
     </head>
 
     <!-- activate scrollspy -->
     <body id="top" data-spy="scroll" data-target=".navbar" data-offset="70">
 
-       <h1>  Select Cinema Under Construction  </h1>
-       <p>  Please check back for updates   </p>
-       <p>  Thank you   </p>
+        <!-- Navigation
+        ======================================== -->
+
+
+        <div id="searchDropdown" class="search-drop hidden">
+          <form action="/Guide/Search" method="get" class="ignoreCSRF">
+            <div class="header-container">
+              <span class="search-title">Search iFixit:</span>
+              <input type="text" name="query" id="searchForm" class="search-field" placeholder="Enter keywords" spellcheck="false">
+              <button class="search-submit" id="searchSubmit" type="submit"><i class="fa fa-search"></i></button>
+              <i class="search-close search-toggle fa fa-times"></i>
+            </div>
+          </form>
+          <!-- <button type="button" class="close" aria-hidden="true">&times;</button> -->
+        </div>
+
+
+        <!--<header class="navbar navbar-default navbar-fixed-top" role="banner">-->
+            <!--<div class="container">-->
+                <!--<div class="navbar-header">-->
+                    <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">-->
+                      <!--<span class="sr-only">Toggle navigation</span>-->
+                      <!--<span class="icon-bar"></span>-->
+                      <!--<span class="icon-bar"></span>-->
+                      <!--<span class="icon-bar"></span>-->
+                    <!--</button>-->
+                    <!--<a href="http://dstroot.github.io/landing-page-example/" class="navbar-brand"><i class="fa fa-star fa-lg"></i> Awesomesauce!</a>-->
+                <!--</div>-->
+                <!--<nav class="collapse navbar-collapse" role="navigation">-->
+                    <!--<ul class="nav navbar-nav navbar-right">-->
+                        <!--<li class="active">-->
+                            <!--<a class="scroll" href="#about">ABOUT</a>-->
+                        <!--</li>-->
+                        <!--<li>-->
+                            <!--&lt;!&ndash; data-toggle="collapse" data-target=".navbar-collapse" &ndash;&gt;-->
+                            <!--<a class="" href="#entertain">ENTERTAINMENT</a>-->
+                        <!--</li>-->
+                        <!--<li>-->
+                            <!--<a class="" href="#sub">SUBSCRIPTION</a>-->
+                        <!--</li>-->
+
+                        <!--<li>-->
+                          <!--<a href="#contact">CONTACT</a>-->
+                        <!--</li>-->
+                    <!--</ul>-->
+                <!--</nav>-->
+            <!--</div>-->
+        <!--</header>-->
+
+
+     <div class="row">
+
+        <div  class ="welcome">
+
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="http://dstroot.github.io/landing-page-example/" class="navbar-brand"><i class="fa fa-star fa-lg"></i> Awesomesauce!</a>
+            </div>
+            <nav class="collapse navbar-collapse" role="navigation">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active">
+                  <a class="scroll" href="#about">ABOUT</a>
+                </li>
+                <li>
+                  <!-- data-toggle="collapse" data-target=".navbar-collapse" -->
+                  <a class="" href="#entertain">ENTERTAINMENT</a>
+                </li>
+                <li>
+                  <a class="" href="#sub">SUBSCRIPTION</a>
+                </li>
+
+                <li>
+                  <a href="#contact">CONTACT</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+              <div class="title">
+               Select Cinema
+              </div>
+                  <p>A subscription-based service for onboard movie and TV entertainment</p>
+
+
+        </div>
+     </div>
+
+
+        <div class="row">
+
+        <div class="hero">
+          <div class="title">
+            About Select Cinema
+          </div>
+
+
+          <div class='col-md-6  col-lg-6 ' >
+            <img  class="pull-right"  src="img/ipad-u-i.png" alt="ipad">
+          </div>
+
+          <div class='col-md-6  col-lg-6  '>
+
+              <p  >
+                  <strong>Select Cinema</strong>  provides media content services onboard your private aircraft enabling you to view the newest Hollywood hits at over 40,000 feet in the comfort of your own jet.
+              </p>
+            <br>
+            <p >
+              <strong>Select Cinema</strong>
+              Try the service for free for xx months and if you decide you can’t live without it subscribe to keep your access to our library of over xxx hit movies and TV shows from the top entertainment studios.
+            </p>
+            <br>
+
+            <p>Be entertained everywhere you fly!</p>
+          </div>
+
+
+          </div>
+        </div>
+
+
+
+
+          <div class="row">
+
+
+
+              <div class="entertain">
+                <div class='entertain-inner'>
+
+                <div class="entertain-content">
+                    <div class="title">
+                        Premium entertainment content
+                    </div>
+                    <p>
+                      Find the newest movies and TV show releases available to you onboard your aircraft.
+                      New box office releseases added monthy.
+                    </p>
+
+                </div>
+                </div>
+
+                <!--Button Start-->
+                <div class="row">
+                  <div class="col-sm-6 col-md-6 col-lg-6" style="padding-right:0px;">
+                    <div class="btn-outer pull-right"><div class="btn-inner">MOVIES</div></div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <div class="btn-outer"><div class="btn-inner">TV SHOWS</div></div>
+                  </div>
+                </div>
+                <!--Button End -->
+
+
+                <div class="sky-carousel">
+                  <div class="sky-carousel-wrapper">
+                    <ul class="sky-carousel-container">
+                      <li>
+                        <img src="img/2/1.jpg" alt="" />
+                        <div class="sc-content">
+                          <h2>Halloween Party Poster</h2>
+                          <p>Poster showing a green witch.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <img src="img/2/2.jpg" alt="" />
+                        <div class="sc-content">
+                          <h2>Bloody Skull</h2>
+                          <p>Party poster with a bloody skull.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <img src="img/2/3.jpg" alt="" />
+                        <div class="sc-content">
+                          <h2>Halloween Party Poster</h2>
+                          <p>Poster showing a Halloween pumpkin.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <img src="img/2/4.jpg" alt="" />
+                        <div class="sc-content">
+                          <h2>Grunge Skull</h2>
+                          <p>Party poster with a grunge skull.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <img src="img/2/5.jpg" alt="" />
+                        <div class="sc-content">
+                          <h2>Halloween Party Poster</h2>
+                          <p>Poster showing a werewolf.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <img src="img/2/6.jpg" alt="" />
+                        <div class="sc-content">
+                          <h2>Halloween Vampire</h2>
+                          <p>Halloween party poster with a vampire.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <img src="img/2/1.jpg" alt="" />
+                        <div class="sc-content">
+                          <h2>Halloween Party Poster</h2>
+                          <p>Poster showing a green witch.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <img src="img/2/2.jpg" alt="" />
+                        <div class="sc-content">
+                          <h2>Bloody Skull</h2>
+                          <p>Party poster with a bloody skull.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <img src="img/2/3.jpg" alt="" />
+                        <div class="sc-content">
+                          <h2>Halloween Party Poster</h2>
+                          <p>Poster showing a Halloween pumpkin.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <img src="img/2/4.jpg" alt="" />
+                        <div class="sc-content">
+                          <h2>Grunge Skull</h2>
+                          <p>Party poster with a grunge skull.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <img src="img/2/5.jpg" alt="" />
+                        <div class="sc-content">
+                          <h2>Halloween Party Poster</h2>
+                          <p>Poster showing a werewolf.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <img src="img/2/6.jpg" alt="" />
+                        <div class="sc-content">
+                          <h2>Halloween Vampire</h2>
+                          <p>Halloween party poster with a vampire.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <img src="img/2/1.jpg" alt="" />
+                        <div class="sc-content">
+                          <h2>Halloween Party Poster</h2>
+                          <p>Poster showing a green witch.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <img src="img/2/2.jpg" alt="" />
+                        <div class="sc-content">
+                          <h2>Bloody Skull</h2>
+                          <p>Party poster with a bloody skull.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <img src="img/2/3.jpg" alt="" />
+                        <div class="sc-content">
+                          <h2>Halloween Party Poster</h2>
+                          <p>Poster showing a Halloween pumpkin.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <img src="img/2/4.jpg" alt="" />
+                        <div class="sc-content">
+                          <h2>Grunge Skull</h2>
+                          <p>Party poster with a grunge skull.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <img src="img/2/5.jpg" alt="" />
+                        <div class="sc-content">
+                          <h2>Halloween Party Poster</h2>
+                          <p>Poster showing a werewolf.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <img src="img/2/6.jpg" alt="" />
+                        <div class="sc-content">
+                          <h2>Halloween Vampire</h2>
+                          <p>Halloween party poster with a vampire.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <img src="img/2/1.jpg" alt="" />
+                        <div class="sc-content">
+                          <h2>Halloween Party Poster</h2>
+                          <p>Poster showing a green witch.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <img src="img/2/2.jpg" alt="" />
+                        <div class="sc-content">
+                          <h2>Bloody Skull</h2>
+                          <p>Party poster with a bloody skull.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <img src="img/2/3.jpg" alt="" />
+                        <div class="sc-content">
+                          <h2>Halloween Party Poster</h2>
+                          <p>Poster showing a Halloween pumpkin.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <img src="img/2/4.jpg" alt="" />
+                        <div class="sc-content">
+                          <h2>Grunge Skull</h2>
+                          <p>Party poster with a grunge skull.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <img src="img/2/5.jpg" alt="" />
+                        <div class="sc-content">
+                          <h2>Halloween Party Poster</h2>
+                          <p>Poster showing a werewolf.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <img src="img/2/6.jpg" alt="" />
+                        <div class="sc-content">
+                          <h2>Halloween Vampire</h2>
+                          <p>Halloween party poster with a vampire.</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+
+
+
+              </div>
+
+
+
+          </div>
+
+
+
+
+        <div class="jumbotron">
+            <div class="container">
+                <div class="title">
+                    Subscriptions
+                </div>
+                <p>
+                    This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.
+                  This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.
+                </p>
+                <p>
+                    <a class="btn btn-primary btn-lg" role="button">Learn more <i class="fa fa-chevron-right"></i></a>
+                </p>
+            </div>
+        </div>
+
+
+        <div class="jumbotron">
+          <div class="container">
+            <div class="title">
+              Contact us
+            </div>
+            <p>
+              This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.
+              This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.
+            </p>
+            <p>
+              <a class="btn btn-primary btn-lg" role="button">Learn more <i class="fa fa-chevron-right"></i></a>
+            </p>
+          </div>
+        </div>
+
+
+
+
+
+
+
 
 
 
         <!-- Footer
-
+        ======================================== -->
+        <footer class="footer">
+            <div class='container'>
+              <ul class="list-unstyled list-inline">
+                <li>
+                  <a href="http://blog.yourkarma.com"><i class="fa fa-bullhorn"></i>&nbsp;&nbsp;Blog</a>
+                </li>
+                <li>&middot;</li>
+                <li>
+                  <a href="http://twitter.com/#!/yourkarma" target="_blank" class="txta txta-twitter"><i class="fa fa-twitter"></i>&nbsp;&nbsp;Twitter</a>
+                </li>
+                <li>&middot;</li>
+                <li>
+                  <a href="https://www.facebook.com/getyourkarma" target="_blank" class="txta txta-facebook"><i class="fa fa-facebook"></i>&nbsp;&nbsp;Facebook</a>
+                </li>
+              </ul>
+                <!-- <ul class="list-unstyled list-inline">
+                    <li class="hidden-xs center-block">
+                        <h4>
+                            Help
+                        </h4>
+                        <ul class='fa-ul'>
+                            <li>
+                                <i class="fa fa-li fa-road"></i><a href="/tour">Tour</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-li fa-rocket"></i><a href="/start">Get Started</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-li fa-h-square"></i><a href="/help">Help Center</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class='center-block'>
+                        <h4 class='hidden-xs'>
+                            About
+                        </h4>
+                        <ul class='fa-ul'>
+                            <li>
+                                <i class="fa fa-li fa-bullhorn"></i><a href="http://blog.yourkarma.com">Blog</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-li fa-book"></i><a href="/privacy">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-li fa-book"></i><a href="/terms">Terms of Service</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="hidden-xs center-block">
+                        <h4>Connect</h4>
+                        <ul class='fa-ul'>
+                            <li>
+                                <i class="fa-li fa fa-twitter"></i><a href="http://twitter.com/#!/yourkarma" target="_blank" class="txta txta-twitter">Twitter</a>
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-facebook"></i><a href="https://www.facebook.com/getyourkarma" target="_blank" class="txta txta-facebook">Facebook</a>
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-envelope"></i><a href="/contact">Contact Us</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul> -->
+                <p>
+                    <small>Copyright © 2013 <i class="fa fa-star"></i> Awesomesauce, all rights reserved. | <a href="http://www.livefyre.com/privacy/" title="Privacy Policy" onclick="_gaq.push(['_trackEvent', 'footer', 'click', 'footer_privacyPolicy']);">Privacy Policy</a> | <a href="http://www.livefyre.com/terms/" title="Terms of Use" onclick="_gaq.push(['_trackEvent', 'footer', 'click', 'footer_termsofUse']);">Terms of Use</a></small>
+                </p>
+            </div>
+        </footer>
 
         <!-- Scripts
         ======================================== -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js" type="text/javascript"></script>
-        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js" type="text/javascript"></script>
+        <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js" type="text/javascript"></script>-->
 
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js" type="text/javascript"></script>
         <!-- To collapse the Nav on the mobile view after a click -->
         <script type="text/javascript">
           $('.navbar-collapse a').click(function () {
@@ -120,6 +608,31 @@
             });
           });
         </script>
+
+    <!--<script>var images = document.getElementsByClassName('image');-->
+    <!--var carouselWrapper = document.getElementById('carousel-wrapper');-->
+    <!--var selected = 6;-->
+    <!--var i;-->
+    <!--var l;-->
+
+    <!--//set initial selected element-->
+    <!--document.location.hash = '#image-6';-->
+
+    <!--for(i = 0, l = images.length; i < l; i++) {-->
+
+      <!--images[i].addEventListener('click', function(e){-->
+
+        <!--var imageId = e.target.id;-->
+        <!--var imageNum = imageId.split('-')[1];-->
+        <!--var difference = imageNum - selected;-->
+        <!--var position = parseInt(document.defaultView.getComputedStyle(carouselWrapper).marginLeft);-->
+
+        <!--carouselWrapper.style.marginLeft = position - (difference * 350) + 'px';-->
+        <!--selected = imageNum;-->
+
+      <!--});-->
+    <!--}-->
+    <!--</script>-->
 
     </body>
 </html>

@@ -3922,8 +3922,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #1f1f1f;
-  border-color: #0e0e0e;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
 }
 .navbar-default .navbar-brand {
   color: #ffffff;
@@ -3968,7 +3968,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #0e0e0e;
+  border-color: rgba(0, 0, 0, 0);
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
@@ -5912,7 +5912,6 @@ hr {
   margin-bottom: 40px;
 }
 body {
-  padding-top: 50px;
   font-weight: 300;
 }
 h1,
@@ -5928,6 +5927,24 @@ h6,
 .h5,
 .h6 {
   font-weight: 300;
+}
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  width: 400px;
+  margin: 0 auto ;
+}
+.title {
+  text-align: center;
+  color: #c5a059;
+  margin-top: 100px;
+  margin-bottom: 26px;
+  padding: 0px ;
+  font-size: 40px;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.3px;
 }
 .share-buttons {
   zoom: 1;
@@ -6309,56 +6326,83 @@ iframe[seamless] {
 .hero {
   overflow: hidden;
   position: relative;
-  background: url("../img/fantastic-beasts.jpg") top center;
+  background-color: #1f1f1f;
   background-size: cover;
   height: 700px;
 }
-.hero .hero-inner {
+.hero img {
+  align-content: center;
+}
+.hero p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  text-align: left;
+  letter-spacing: 0.3px;
+  color: white;
+}
+.welcome {
+  overflow: hidden;
+  background-color: #1f1f1f;
+  background: url("../img/fantastic-beasts.jpg") top center;
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+}
+.welcome p {
+  width: 440px;
+  height: 62px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.3px;
+  color: #ffffff;
+  margin: 0 auto ;
+}
+.entertain {
+  overflow: hidden;
+  position: relative;
+  background-color: #1f1f1f;
+  background: url("../img/fantastic-beasts-op.jpg") top center;
+  background-size: cover;
+  height: 700px;
+}
+.entertain .entertain-inner {
   position: relative;
   height: 100%;
   margin-right: auto;
   margin-left: auto;
 }
 @media (min-width: 768px) {
-  .hero .hero-inner {
+  .entertain .entertain-inner {
     width: 750px;
   }
 }
 @media (min-width: 992px) {
-  .hero .hero-inner {
+  .entertain .entertain-inner {
     width: 970px;
   }
 }
 @media (min-width: 1200px) {
-  .hero .hero-inner {
+  .entertain .entertain-inner {
     width: 1170px;
   }
 }
-.hero .hero-image {
+.entertain .entertain-image {
   display: block;
-  height: 90%;
-  position: absolute;
+  height: 50%;
   bottom: 0;
-  left: 5%;
 }
-.hero .hero-content {
+.entertain .entertain-content {
   display: block;
-  position: absolute;
-  top: 15%;
-  right: 5%;
-  width: 500px;
-  overflow: hidden;
+  padding-top: 30px;
   text-align: center;
+  overflow: hidden;
 }
-.hero .hero-content h2 {
-  margin: 0 0 24px;
-  padding: 0;
-  font-size: 80px;
-  color: #c5a059;
-  font-family: "Lato", sans-serif;
-  letter-spacing: -2px;
-}
-.hero .hero-content p {
+.entertain .entertain-content p {
+  width: 600px;
   font-size: 20px;
   color: #aaaaaa;
   margin-bottom: 20px;
@@ -6389,7 +6433,9 @@ iframe[seamless] {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
-  border: 0px;
+  border: 5px
+
+;
 }
 .featurette {
   margin-top: 50px;
@@ -6576,4 +6622,39 @@ iframe[seamless] {
   hr {
     margin: 15px;
   }
+}
+.btn-primary {
+  color: #fff;
+  background-color: #c5a059;
+  border-color: #c5a059;
+  border-style: solid ;
+}
+.btn-outer {
+  display: inline-block;
+  border: 1px solid #c5a059;
+  font-size: 12px;
+  width: 100px;
+  text-align: center;
+  color: #c5a059;
+}
+.btn-outer .btn-inner {
+  padding: 5px 5px;
+  background: none;
+  margin: 5px;
+  width: 87px;
+}
+.btn-outer.btn-inner:hover {
+  padding: 5px 5px;
+  background: #c5a059;
+  margin: 5px;
+  width: 87px;
+}
+.sky-carousel {
+  width: 960px;
+  height: 450px;
+  position: relative;
+  border: none  !important;
+  background: none !important;
+  overflow: hidden;
+  margin: 0 auto;
 }

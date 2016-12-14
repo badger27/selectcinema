@@ -5,6 +5,8 @@
 // Change the base font to Open Sans
 // --------------------------------------------------
 @font-family-sans-serif:  "Open Sans", Helvetica, Arial, sans-serif;
+@font-family-playfair: 'Playfair Display', serif;
+@font-family-source: 'Source Sans Pro', sans-serif;
 
 // Colors
 // --------------------------------------------------
@@ -76,6 +78,12 @@
 @gray:    #AAAAAA;
 @black:   #111111;
 
+@darkGray: #222222;
+@medGray: #575467;
+@darkBlue: #0a4594;
+@medBlue: #0065c0;
+
+
 // Brand
 .brand1 {       color: @brand1; }
 .brand2 {       color: @brand2; }
@@ -133,6 +141,9 @@
 
 // Basics
 // --------------------------------------------------------
+
+
+
 a {
   -webkit-transition: all 0.2s ease-in-out;
      -moz-transition: all 0.2s ease-in-out;
@@ -145,13 +156,38 @@ hr {
   margin-bottom: 40px;
 }
 body {
-  padding-top: 50px;
+  //padding-top: 50px;
   //-webkit-font-smoothing: antialiased;
   font-weight: 300;  // lightweight thin font
 }
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight: 300;
+}
+
+p{
+  font-family: @font-family-source;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  width:400px;
+  margin: 0 auto ;
+
+}
+
+
+
+
+.title{
+  text-align: center;
+  color: @gold;
+  margin-top:100px;
+  margin-bottom:26px;
+  padding: 0px ;
+  font-size:40px;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.3px;
+
 }
 
 // Hubspot stuff
@@ -494,7 +530,7 @@ overflow:auto
 @navbar-padding-vertical:                ((@navbar-height - @line-height-computed) / 2);
 
 @navbar-default-color:                   @white;          // Text
-@navbar-default-bg:                      @brand-primary;  // Background
+@navbar-default-bg:                      rgba(0,0,0,0.0);  // Background
 @navbar-default-border:                  darken(@navbar-default-bg, 6.5%);
 
 // Navbar links
@@ -590,6 +626,9 @@ overflow:auto
   line-height: 24px;
 }
 
+.navbar-default{
+
+}
 // remove the border
 .navbar-fixed-top {
   border-width: 0px;
@@ -648,6 +687,7 @@ overflow:auto
     width: 200px;
     height: 50px;
     font-size: 22px;
+
   }
   ul {
     font-size: 25px;
@@ -683,10 +723,68 @@ overflow:auto
 .hero {
   overflow: hidden;
   position: relative;
-  background: url("../img/fantastic-beasts.jpg") top center;
+  background-color: @brand-primary;
+  //background: url("../img/fantastic-beasts.jpg") top center;
   background-size: cover;
   height: 700px;
-  .hero-inner {
+
+
+   img{
+     align-content: center;
+   }
+
+
+      p {
+
+
+        font-family: @font-family-source;
+        font-size: 16px;
+        font-weight: lighter;
+        text-align: left;
+        //font-style: normal;
+        //font-stretch: normal;
+        letter-spacing: 0.3px;
+        color: white;
+
+    }
+
+
+}
+
+.welcome {
+  overflow: hidden;
+  //position: relative;
+  background-color: @brand-primary;
+  background: url("../img/fantastic-beasts.jpg") top center;
+  background-size: cover;
+
+  height: 700px;
+  width: 100%;
+
+  p {
+    width: 440px;
+    height: 62px;
+    font-family: @font-family-source;
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.3px;
+
+    color: #ffffff;
+  margin: 0 auto ;
+  }
+}
+
+
+.entertain {
+  overflow: hidden;
+  position: relative;
+  background-color: @brand-primary;
+  background: url("../img/fantastic-beasts-op.jpg") top center;
+  background-size: cover;
+  height: 700px;
+  .entertain-inner {
     position: relative;
     height: 100%;
     margin-right: auto;
@@ -701,39 +799,39 @@ overflow:auto
       width: @container-lg;
     }
   }
-  .hero-image {
+  .entertain-image {
     display: block;
-    height: 90%;
-    position: absolute;
+    height: 50%;
+    //position: absolute;
     bottom: 0;
-    left: 5%;
+    //left: 5%;
   }
-  .hero-content {
+  .entertain-content {
     display: block;
-    position: absolute;
-    top: 15%;
-    right: 5%;
-    width: 500px;
+
+    padding-top: 30px;
+
+    //width: 500px;
     text-align: center;
     overflow: hidden;
-    text-align: center;
 
-    h2 {
-      margin: 0 0 24px;
-      padding: 0;
-      font-size: 80px;
-      color: @gold; //#fff;
-      font-family: "Lato", sans-serif;
-      letter-spacing: -2px;
-      //text-shadow: 0 1px 5px rgba(0, 0, 0, 0.75);
-      //text-transform: capitalize;
-    }
+    //h2 {
+    //  margin: 0 0 24px;
+    //  padding: 0;
+    //  font-size: 50px;
+    //  color: @gold; //#fff;
+    //  font-family: "Lato", sans-serif;
+    //  letter-spacing: -2px;
+    //  //text-shadow: 0 1px 5px rgba(0, 0, 0, 0.75);
+    //  //text-transform: capitalize;
+    //}
 
-      p {
+    p {
+      width:600px;
       font-size: 20px;
       color: @gray;
       margin-bottom: 20px;
-        text-align: center;
+      text-align: center;
     }
 
   }
@@ -775,7 +873,9 @@ overflow:auto
   -webkit-border-radius: 0;
      -moz-border-radius: 0;
           border-radius: 0;
-  border: 0px;
+  border: 5px
+
+;
 }
 @btn-primary-color:              #fff;
 @btn-primary-bg:                 darken(@brand-primary, 20%);  //@brand-primary;
@@ -976,3 +1076,237 @@ overflow:auto
 }
 @media (min-width: 1170px) {
 }
+
+
+
+
+
+
+
+
+//carousel start
+
+//
+//@intitialPosition: -1400px;
+//@startingPosition: -3205px;
+//
+//
+//
+//.vGradient(@top, @bottom){
+//  background-color: @top;
+//  background-image: -webkit-gradient(linear, top, bottom, from(@top), to(@bottom));
+//  background-image: -webkit-linear-gradient(top, @top, @bottom);
+//  background-image: -moz-linear-gradient(top, @top, @bottom);
+//  background-image: -ms-linear-gradient(top, @top, @bottom);
+//  background-image: -o-linear-gradient(top, @top, @bottom);
+//  background-image: linear-gradient(top, @top, @bottom);
+//}
+//
+//.translate(@left, @top) {
+//  transform:translate(@left, @top);
+//  -ms-transform:translate(@left, @top);
+//  -moz-transform:translate(@left, @top);
+//  -webkit-transform:translate(@left, @top);
+//  -o-transform:translate(@left, @top);
+//}
+//
+//.scale(@width, @height) {
+//  transform: scale(@width, @height);
+//  -ms-transform: scale(@width, @height);
+//  -webkit-transform: scale(@width, @height);
+//  -o-transform: scale(@width, @height);
+//  -moz-transform: scale(@width, @height);
+//}
+//
+//.transition (@args) {
+//  -webkit-transition: @args;
+//  -moz-transition: @args;
+//  -o-transition: @args;
+//  transition: @args;
+//}
+//
+//.roundedCorners(@radius) {
+//  -moz-border-radius: @radius;
+//  -webkit-border-radius: @radius;
+//  border-radius: @radius;
+//}
+//
+//.boxShadow (@args) {
+//  -moz-box-shadow: @args;
+//  -webkit-box-shadow: @args;
+//  box-shadow: @args;
+//}
+//
+//.animate(@args) {
+//  animation: @args;
+//  -moz-animation: @args;
+//  -webkit-animation: @args;
+//  -o-animation: @args;
+//}
+//
+///* =============== KEYFRAMES ===================== */
+//
+//@keyframes zoom {
+//  from {
+//    .scale(.2, .2);
+//    margin-left: -3100px;
+//  }
+//  to {
+//    .scale(1, 1);
+//    margin-left: @startingPosition;
+//  }
+//}
+//
+//@-moz-keyframes zoom {
+//  from {
+//    .scale(.1, .1);
+//    margin-left: -3100px;
+//  }
+//  to {
+//    .scale(1, 1);
+//    margin-left: @startingPosition;
+//  }
+//}
+//
+//@-webkit-keyframes zoom {
+//  from {
+//    .scale(.2, .2);
+//    margin-left: -3100px;
+//  }
+//  to {
+//    .scale(1, 1);
+//    margin-left: @startingPosition;
+//  }
+//}
+//
+//@-o-keyframes zoom {
+//  from {
+//    .scale(.2, .2);
+//    margin-left: -3100px;
+//  }
+//  to {
+//    .scale(1, 1);
+//    margin-left: @startingPosition;
+//  }
+//}
+//
+///* ============== MAIN STYLES ==================== */
+//
+//html {
+//  height: 100%;
+//  width: 100%;
+//}
+//
+//body {
+//  margin: 0;
+//  padding: 0;
+//  height: 100%;
+//  width: 100%;
+//  overflow: hidden;
+//  .vGradient(@black, @darkGray);
+//}
+//
+//.image {
+//  display: inline-block;
+//  margin: 50px 50px 0 50px;
+//  height: 250px;
+//  width: 250px;
+//  .vGradient(@medBlue, @darkBlue);
+//  .roundedCorners(10px);
+//  .boxShadow(3px 3px 10px rgba(0, 0, 0, .5));
+//
+//  &:hover {
+//    cursor: pointer;
+//    .vGradient(lighten(@medBlue, 10%), lighten(@darkBlue, 10%));
+//  }
+//
+//  &:target {
+//    .scale(1.25, 1.25);
+//  }
+//}
+//
+//#carousel-wrapper {
+//  text-align: center;
+//  position: absolute;
+//  top: 50%;
+//  left: 50%;
+//  margin-top: -165px;
+//  margin-left: @startingPosition;
+//  width: 6000px;
+//  .animate(zoom 1s);
+//}
+//
+//.image, #carousel-wrapper {
+//  .transition(all .5s ease-in-out);
+//}
+//
+//.target {
+//  position: absolute;
+//  border: 1px solid red;
+//  width: 25%;
+//  height: 100%;
+//  z-index: 10;
+//}
+//
+//#right-target {
+//  right: 0;
+//}
+//
+//#left-target {
+//  left: 0;
+//}
+//
+
+//buttons
+
+.btn-primary {
+  color: #fff;
+  background-color: @gold;
+  border-color: @gold;
+  border-style:  solid ;
+  //border-collapse: separate;
+  //border-spacing: 10px 50px;
+}
+
+.btn-outer {
+  display: inline-block;
+  border: 1px solid @gold;
+  font-size: 12px;
+  width:100px;
+  text-align: center;
+  color:@gold;
+
+}
+
+
+
+.btn-outer .btn-inner {
+  padding: 5px 5px;
+  background: none;
+  margin: 5px;
+  width:87px;
+}
+
+//.btn-outer:hover {
+//  border: 1px solid @gold;
+//  font-size: 12px;
+//  color: @grey;
+//}
+
+.btn-outer.btn-inner:hover {
+  padding: 5px 5px;
+  background: @gold;
+  margin: 5px;
+  width:87px;
+}
+
+.sky-carousel {
+  width: 960px;
+  height: 450px;
+  position: relative;
+  border: none  !important;
+  background: none !important;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
