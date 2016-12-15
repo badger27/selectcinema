@@ -5940,7 +5940,7 @@ p {
   text-align: center;
   color: #c5a059;
   margin-top: 100px;
-  margin-bottom: 26px;
+  margin-bottom: 30px;
   padding: 0px ;
   font-size: 40px;
   font-family: 'Playfair Display', serif;
@@ -5948,9 +5948,10 @@ p {
 }
 @media (max-width: 480px) {
   .title {
+    font-size: 25px;
     text-align: center;
     color: #c5a059;
-    margin-top: 10px;
+    margin-top: 40px;
     font-family: 'Playfair Display', serif;
   }
 }
@@ -6339,16 +6340,19 @@ iframe[seamless] {
   background-color: #ffffff;
   border-color: #ffffff;
 }
+p {
+  padding: 10px 40px 10px 40px;
+}
 .welcome {
   overflow: hidden;
   background-color: #1f1f1f;
   background: url("../img/fantastic-beasts.jpg") top center;
   background-size: cover;
-  height: 700px;
+  height: 800px;
   width: 100%;
 }
 .welcome p {
-  width: 440px;
+  width: 540px;
   height: 62px;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 24px;
@@ -6362,24 +6366,24 @@ iframe[seamless] {
 @media (max-width: 480px) {
   .welcome p {
     width: 340px;
+    font-size: 16px;
   }
 }
 .about {
   overflow: hidden;
   position: relative;
-  background-color: #1f1f1f;
+  background-image: radial-gradient(circle at 35% 47%, #2e2e2e, #181719);
   background-size: cover;
-  height: 700px;
+  padding-bottom: 100px;
 }
 .about img {
-  align-content: center;
+  width: 100%;
 }
 .about p {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
   font-weight: lighter;
   text-align: left;
-  width: 500px;
   letter-spacing: 0.3px;
   color: white;
 }
@@ -6389,12 +6393,12 @@ iframe[seamless] {
   background-color: #1f1f1f;
   background: url("../img/fantastic-beasts-op.jpg") top center;
   background-size: cover;
-  height: 700px;
+  padding-bottom: 100px;
 }
 .entertain p {
   font-family: 'Source Sans Pro', sans-serif;
-  width: 700px;
-  font-size: 24px;
+  width: 80%;
+  font-size: 16px;
   font-weight: lighter;
   text-align: center;
   margin-bottom: 20px;
@@ -6405,17 +6409,22 @@ iframe[seamless] {
   overflow: hidden;
   background-color: #1f1f1f;
   background-size: cover;
-  height: 700px;
   width: 100%;
 }
 .subscription p {
   font-family: 'Source Sans Pro', sans-serif;
   width: 700px;
-  font-size: 24px;
+  font-size: 16px;
   font-weight: lighter;
   text-align: center;
   letter-spacing: 0.3px;
   color: white;
+}
+@media (max-width: 480px) {
+  .subscription p {
+    width: 340px;
+    font-size: 16px;
+  }
 }
 .howitworks {
   overflow: hidden;

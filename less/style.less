@@ -171,7 +171,6 @@ p{
   font-size: 24px;
   color: white;
   text-align: center;
-
   margin: 0 auto ;
 
 }
@@ -183,7 +182,7 @@ p{
   text-align: center;
   color: @gold;
   margin-top:100px;
-  margin-bottom:26px;
+  margin-bottom:30px;
   padding: 0px ;
   font-size:40px;
   font-family: 'Playfair Display', serif;
@@ -193,9 +192,10 @@ p{
 @media (max-width: 480px) {
 
   .title{
+    font-size:25px;
     text-align: center;
     color: @gold;
-    margin-top:10px;
+    margin-top:40px;
     font-family: 'Playfair Display', serif;
 
   }
@@ -743,7 +743,9 @@ overflow:auto
 // Hero
 // --------------------------------------------------------
 
-
+p{
+  padding:10px 40px 10px 40px;
+}
 
 
 //Welcome Start
@@ -754,11 +756,11 @@ overflow:auto
       background-color: @brand-primary;
       background: url("../img/fantastic-beasts.jpg") top center;
       background-size: cover;
-      height: 700px;
+      height: 800px;
       width: 100%;
 
       p {
-        width: 440px;
+        width: 540px;
         height: 62px;
         font-family: @font-family-source;
         font-size: 24px;
@@ -773,9 +775,10 @@ overflow:auto
 
   @media (max-width: 480px) {
 
-    p{  width: 340px;}
-
-
+    p{
+      width: 340px;
+      font-size: 16px;
+    }
   }
 }  //Welcome end
 
@@ -784,12 +787,16 @@ overflow:auto
 .about {
   overflow: hidden;
   position: relative;
-  background-color: @brand-primary;
+  background-image: radial-gradient(circle at 35% 47%, #2e2e2e, #181719);
   //background: url("../img/fantastic-beasts.jpg") top center;
   background-size: cover;
-  height: 700px;
+  padding-bottom: 100px;
+
+
   img{
-    align-content: center;
+
+    width:100%;
+
   }
 
   p {
@@ -798,11 +805,12 @@ overflow:auto
     font-size: 16px;
     font-weight: lighter;
     text-align: left;
-    width:500px;
+    //width:500px;
     //font-style: normal;
     //font-stretch: normal;
     letter-spacing: 0.3px;
     color: white;
+
   }
 } //About End
 
@@ -814,13 +822,14 @@ overflow:auto
       background-color: @brand-primary;
       background: url("../img/fantastic-beasts-op.jpg") top center;
       background-size: cover;
-      height: 700px;
+      padding-bottom: 100px;
+
 
 
         p {
           font-family: @font-family-source;
-          width:700px;
-          font-size: 24px;
+          width:80%;
+          font-size: 16px;
           font-weight: lighter;
           text-align: center;
           margin-bottom: 20px;
@@ -840,19 +849,27 @@ overflow:auto
   background-color: @brand-primary;
   //background: url("../img/fantastic-beasts.jpg") top center;
   background-size: cover;
-  height: 700px;
+
   width: 100%;
 
   p {
     font-family: @font-family-source;
     width:700px;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: lighter;
     text-align: center;
     //font-style: normal;
     //font-stretch: normal;
     letter-spacing: 0.3px;
     color: white;
+  }
+
+  @media (max-width: 480px) {
+
+    p{
+      width: 340px;
+      font-size: 16px;
+    }
   }
 }//Subscription End
 

@@ -30,8 +30,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="155" column="19" lean-forward="true" selection-start-line="155" selection-start-column="19" selection-end-line="155" selection-end-column="19" />
+            <state relative-caret-position="105">
+              <caret line="396" column="20" lean-forward="true" selection-start-line="396" selection-start-column="20" selection-end-line="396" selection-end-column="20" />
               <folding>
                 <element signature="n#style#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -44,8 +44,8 @@
       <file leaf-file-name="style.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/less/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="197" column="20" lean-forward="false" selection-start-line="197" selection-start-column="20" selection-end-line="197" selection-end-column="20" />
+            <state relative-caret-position="211">
+              <caret line="869" column="19" lean-forward="true" selection-start-line="869" selection-start-column="19" selection-end-line="869" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -62,24 +62,29 @@
       <find>btn-primary</find>
       <find>entert</find>
       <find>jquery</find>
-      <find>wel</find>
       <find>navbar-default</find>
       <find>enter</find>
-      <find>welcome</find>
       <find>welc</find>
       <find>titl</find>
       <find>hero</find>
       <find>entertai</find>
       <find>.navbar</find>
-      <find>entertain</find>
-      <find>p</find>
       <find>body</find>
       <find>contacts</find>
       <find>.form-control</find>
       <find>contact-form</find>
       <find>navbar</find>
-      <find>logo</find>
+      <find>p</find>
+      <find>wel</find>
+      <find>about</find>
+      <find>welcome</find>
+      <find>abou</find>
+      <find>entertain</find>
       <find>title</find>
+      <find>subscr</find>
+      <find>navbar-nav</find>
+      <find>subscriptions</find>
+      <find>logo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -109,8 +114,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="56" />
-    <option name="y" value="23" />
+    <option name="x" value="50" />
+    <option name="y" value="88" />
     <option name="width" value="1440" />
     <option name="height" value="873" />
   </component>
@@ -252,15 +257,15 @@
       <option name="presentableId" value="Default" />
       <updated>1481560053450</updated>
       <workItem from="1481560054980" duration="28883000" />
-      <workItem from="1481733445512" duration="13679000" />
+      <workItem from="1481733445512" duration="22716000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42562000" />
+    <option name="totallyTimeSpent" value="51599000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="23" width="1440" height="873" extended-state="0" />
+    <frame x="50" y="88" width="1440" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22973925" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -392,8 +397,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="155" column="19" lean-forward="true" selection-start-line="155" selection-start-column="19" selection-end-line="155" selection-end-column="19" />
+        <state relative-caret-position="105">
+          <caret line="396" column="20" lean-forward="true" selection-start-line="396" selection-start-column="20" selection-end-line="396" selection-end-column="20" />
           <folding>
             <element signature="n#style#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -404,8 +409,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/less/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="197" column="20" lean-forward="false" selection-start-line="197" selection-start-column="20" selection-end-line="197" selection-end-column="20" />
+        <state relative-caret-position="211">
+          <caret line="869" column="19" lean-forward="true" selection-start-line="869" selection-start-column="19" selection-end-line="869" selection-end-column="19" />
           <folding />
         </state>
       </provider>
