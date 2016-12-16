@@ -20,14 +20,12 @@
 
       <!-- Fonts -->
       <link rel="stylesheet" type='text/css' href='//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css'>
-
-
-      <!--<link rel="stylesheet" type='text/css' href='//fonts.googleapis.com/css?family=Droid+Sans|Lato|Revalia'>-->
-
+      <link rel="stylesheet" type='text/css' href='//fonts.googleapis.com/css?family=Droid+Sans|Lato|Revalia'>
       <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i" rel="stylesheet">
 
-      <!--<link rel="stylesheet" type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,600,700italic,900,400italic,300'>-->
+      <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+
+      <link rel="stylesheet" type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,600,700italic,900,400italic,300'>
 
       <!-- Favicon -->
       <link rel="shortcut icon" href="http://prettystrap.com/themes/the-story/preview/img/favicon.ico" type="image/x-icon">
@@ -100,26 +98,6 @@
       </script>
 
 
-      <script>
-        function scrollNav() {
-          $('.scroll a').click(function(){
-            //Toggle Class
-            $(".active").removeClass("active");
-            $(this).closest('li').addClass("active");
-            var theClass = $(this).attr("class");
-            $('.'+theClass).parent('li').addClass('active');
-            //Animate
-            $('html, body').stop().animate({
-              scrollTop: $( $(this).attr('href') ).offset().top - 160
-            }, 400);
-            return false;
-          });
-          $('.scrollTop a').scrollTop();
-        }
-        scrollNav();
-      </script>
-
-
     </head>
 
     <!-- activate scrollspy -->
@@ -143,7 +121,6 @@
 
 
         <!-- Welcome Start -->
-
       <div class="row">
          <div  class ="welcome">
            <div class="container">
@@ -156,8 +133,6 @@
                </button>
                <a href="http://dstroot.github.io/landing-page-example/" class="navbar-brand"><img class="logo" src="img/s-c-logo.png" ></img></a>
              </div>
-
-             <div class="scroll">
              <nav class="collapse navbar-collapse   " role="navigation">
                <ul class="nav navbar-nav navbar-right">
                  <li class="active"><a class="scroll" href="#ab">ABOUT</a></li>
@@ -166,8 +141,6 @@
                  <li><a           href="#co">CONTACT</a></li>
               </ul>
             </nav>
-             </div>
-
            </div>
             <!--<div class="row hidden-lg text-center">-->
              <!--<a href="http://dstroot.github.io/landing-page-example/" class="navbar-brand">-->
@@ -177,7 +150,7 @@
 
            <div class="title">Select Cinema</div>
 
-               <p >Premium Hollywood movies and TV episodes onboard your private aircraft</p>
+               <p>Premium Hollywood movies and TV episodes onboard your private aircraft</p>
           </div><!-- Welcome End -->
      </div><!--row end-->
 
@@ -188,7 +161,7 @@
            <div class="row">
               <div class="title">About Select Cinema</div>
 
-           <div class='col-md-1  col-lg-2 ' ></div>
+           <div class='col-md-1  col-lg-2 '></div>
 
               <div class='col-md-5  col-lg-4 text-center' >
                 <img   src="img/ipad-u-i.png" alt="ipad">
@@ -217,11 +190,8 @@
               <div id="en" class="entertain">
                 <div class="row">
                     <div class="title">Premium entertainment content</div>
-
-                    <p>
-                      Choose your own content offering from a library of the
-                      newest movies and TV show releases available. New releases are added
-                      each month.
+                    <p>Find the newest movies and TV show releases available to you onboard your aircraft.
+                      New box office releseases added monthy.
                     </p>
 
                     <!--Button Start-->
@@ -291,7 +261,7 @@
               </div>
             <div class="col-lg-12 ">
               <p>
-                Subscribe to your preferred entertainment experience.
+                Subscribing is easy. You’ll pay a monthly subscription fee that covers content delivery, customer and technical support and acess to premium entertainment in the sky. After that, you only pay for the movie and TV shows titles you want.
               </p>
             </div>
 

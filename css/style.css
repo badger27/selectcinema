@@ -5929,22 +5929,18 @@ h6,
 .h6 {
   font-weight: 300;
 }
-p {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 24px;
-  color: white;
-  text-align: center;
-  margin: 0 auto ;
-}
 .title {
   text-align: center;
   color: #c5a059;
   margin-top: 100px;
   margin-bottom: 30px;
   padding: 0px ;
-  font-size: 40px;
+  font-size: 32px;
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: 0.2px;
+  font-stretch: normal;
   font-family: 'Playfair Display', serif;
-  letter-spacing: 0.3px;
 }
 @media (max-width: 480px) {
   .title {
@@ -6244,8 +6240,13 @@ iframe[seamless] {
 .navbar-nav > li > a {
   padding-left: 0px;
   padding-right: 0px;
-  color: #fff;
-  /* IE8 proofing */
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 5px;
+  color: #ffffff;
   color: rgba(255, 255, 255, 0.5);
   height: 42px;
 }
@@ -6350,7 +6351,24 @@ iframe[seamless] {
   border-color: #ffffff;
 }
 p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  font-weight: 300;
+  letter-spacing: 0.2px;
+  margin: 0 auto ;
+  color: #ffffff;
   padding: 10px 40px 10px 40px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  -webkit-font-smoothing: antialiased;
+}
+@media (max-width: 480px) {
+  p {
+    width: 340px;
+  }
 }
 .welcome {
   overflow: hidden;
@@ -6360,23 +6378,12 @@ p {
   height: 800px;
   width: 100%;
 }
+.welcome .title {
+  font-size: 40px;
+}
 .welcome p {
   width: 540px;
-  height: 62px;
-  font-family: 'Source Sans Pro', sans-serif;
   font-size: 24px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: 0.3px;
-  color: #ffffff;
-  margin: 0 auto ;
-}
-@media (max-width: 480px) {
-  .welcome p {
-    width: 340px;
-    font-size: 14px;
-  }
 }
 .about {
   overflow: hidden;
@@ -6389,12 +6396,8 @@ p {
   width: 100%;
 }
 .about p {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 14px;
-  font-weight: lighter;
+  font-size: 16px;
   text-align: left;
-  letter-spacing: 0.3px;
-  color: white;
 }
 .entertain {
   overflow: hidden;
@@ -6407,11 +6410,9 @@ p {
 .entertain p {
   font-family: 'Source Sans Pro', sans-serif;
   width: 80%;
-  font-size: 14px;
-  font-weight: lighter;
-  text-align: center;
-  margin-bottom: 20px;
-  letter-spacing: 0.3px;
+  line-height: 1.38;
+  letter-spacing: 0.2px;
+  margin-bottom: 34px;
   color: white;
 }
 .subscription {
@@ -6424,7 +6425,6 @@ p {
 .subscription p {
   font-family: 'Source Sans Pro', sans-serif;
   width: 80%;
-  font-size: 14px;
   font-weight: lighter;
   text-align: center;
   letter-spacing: 0.3px;

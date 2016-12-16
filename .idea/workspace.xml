@@ -2,35 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e13e2b79-f91f-4848-8405-29d3cf2df819" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/aircraft-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/form-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/media-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/notification-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sc-graphics/aircraft-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sc-graphics/closedhand.cur" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sc-graphics/closedhand.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sc-graphics/configuration-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sc-graphics/form-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sc-graphics/media-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sc-graphics/next_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sc-graphics/notification-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sc-graphics/openhand.cur" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sc-graphics/openhand.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sc-graphics/preloader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sc-graphics/prev_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sc-graphics/test.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sc-graphics/test.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sc-graphics/tooltip_skin_navigation.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sc-graphics/tooltip_skin_navigation01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/test.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/tooltip_skin_navigation.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/tooltip_skin_navigation01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/tooltip_skin_gulf.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sc-graphics/form-icon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index01.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/movies/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/movies/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/movies/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/movies/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/movies/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/movies/6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/tooltip_skin_movie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index02.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.min.css" afterPath="$PROJECT_DIR$/css/style.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/tooltip_skin_gulf.css" afterPath="$PROJECT_DIR$/css/tooltip_skin_gulf.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/style.less" afterPath="$PROJECT_DIR$/less/style.less" />
     </list>
@@ -53,11 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="126" column="24" lean-forward="true" selection-start-line="126" selection-start-column="24" selection-end-line="126" selection-end-column="24" />
+            <state relative-caret-position="300">
+              <caret line="145" column="0" lean-forward="true" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#4;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -66,31 +49,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tooltip_skin_gulf.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/tooltip_skin_gulf.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3120">
-              <caret line="208" column="0" lean-forward="true" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index01.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index01.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="885">
-              <caret line="367" column="58" lean-forward="true" selection-start-line="367" selection-start-column="58" selection-end-line="367" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.less" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/less/style.less">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="172">
-              <caret line="648" column="24" lean-forward="true" selection-start-line="648" selection-start-column="24" selection-end-line="648" selection-end-column="24" />
+              <caret line="786" column="23" lean-forward="true" selection-start-line="786" selection-start-column="23" selection-end-line="786" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index02.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index02.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="163" column="43" lean-forward="false" selection-start-line="163" selection-start-column="43" selection-end-line="163" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tooltip_skin_movie.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/tooltip_skin_movie.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="98" column="57" lean-forward="true" selection-start-line="98" selection-start-column="57" selection-end-line="98" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -100,9 +83,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>navbar-default</find>
-      <find>enter</find>
-      <find>welc</find>
       <find>titl</find>
       <find>hero</find>
       <find>entertai</find>
@@ -111,13 +91,8 @@
       <find>.form-control</find>
       <find>contact-form</find>
       <find>navbar</find>
-      <find>p</find>
       <find>wel</find>
-      <find>about</find>
-      <find>welcome</find>
       <find>abou</find>
-      <find>entertain</find>
-      <find>navbar-nav</find>
       <find>subscriptions</find>
       <find>h2</find>
       <find>carous</find>
@@ -125,11 +100,19 @@
       <find>subscript</find>
       <find>sky</find>
       <find>subscr</find>
-      <find>title</find>
       <find>.navbar-collapse</find>
-      <find>images</find>
       <find>logo</find>
       <find>coll</find>
+      <find>entertain</find>
+      <find>images</find>
+      <find>test</find>
+      <find>about</find>
+      <find>welcome</find>
+      <find>premiere</find>
+      <find>p</find>
+      <find>navbar-nav</find>
+      <find>premium</find>
+      <find>title</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -141,8 +124,10 @@
         <option value="$PROJECT_DIR$/index-01.html" />
         <option value="$PROJECT_DIR$/less/carousel.less" />
         <option value="$PROJECT_DIR$/css/tooltip_skin_gulf.css" />
-        <option value="$PROJECT_DIR$/less/style.less" />
+        <option value="$PROJECT_DIR$/css/tooltip_skin_movie.css" />
+        <option value="$PROJECT_DIR$/index02.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/less/style.less" />
       </list>
     </option>
   </component>
@@ -160,9 +145,9 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="255" />
-    <option name="y" value="174" />
-    <option name="width" value="1066" />
+    <option name="x" value="67" />
+    <option name="y" value="23" />
+    <option name="width" value="1214" />
     <option name="height" value="873" />
   </component>
   <component name="ProjectView">
@@ -193,6 +178,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="selectcinema" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="selectcinema" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="less" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -214,11 +213,11 @@
       <recent name="$PROJECT_DIR$/css" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/img/sc-graphics" />
-      <recent name="$PROJECT_DIR$/img" />
-      <recent name="$PROJECT_DIR$/css-cus" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/img/2" />
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/img/sc-graphics" />
+      <recent name="$PROJECT_DIR$/css-cus" />
     </key>
   </component>
   <component name="RunManager">
@@ -295,18 +294,18 @@
       <workItem from="1481560054980" duration="28883000" />
       <workItem from="1481733445512" duration="25010000" />
       <workItem from="1481822830917" duration="1719000" />
-      <workItem from="1481836741720" duration="8021000" />
+      <workItem from="1481836741720" duration="21856000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63633000" />
+    <option name="totallyTimeSpent" value="77468000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="255" y="174" width="1066" height="873" extended-state="0" />
+    <frame x="67" y="23" width="1214" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3119617" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27326068" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -465,38 +464,59 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="367" column="58" lean-forward="true" selection-start-line="367" selection-start-column="58" selection-end-line="367" selection-end-column="58" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/img/2/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/tooltip_skin_gulf.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3120">
-          <caret line="208" column="0" lean-forward="true" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
+        <state relative-caret-position="977">
+          <caret line="318" column="27" lean-forward="true" selection-start-line="318" selection-start-column="27" selection-end-line="318" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/style.less">
+    <entry file="file://$PROJECT_DIR$/index01.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="648" column="24" lean-forward="true" selection-start-line="648" selection-start-column="24" selection-end-line="648" selection-end-column="24" />
+        <state relative-caret-position="135">
+          <caret line="184" column="13" lean-forward="true" selection-start-line="184" selection-start-column="13" selection-end-line="184" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/tooltip_skin_movie.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="98" column="57" lean-forward="true" selection-start-line="98" selection-start-column="57" selection-end-line="98" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="163" column="43" lean-forward="false" selection-start-line="163" selection-start-column="43" selection-end-line="163" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="126" column="24" lean-forward="true" selection-start-line="126" selection-start-column="24" selection-end-line="126" selection-end-column="24" />
+        <state relative-caret-position="300">
+          <caret line="145" column="0" lean-forward="true" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#4;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="786" column="23" lean-forward="true" selection-start-line="786" selection-start-column="23" selection-end-line="786" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
