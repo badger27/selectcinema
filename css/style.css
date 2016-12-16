@@ -6236,6 +6236,7 @@ iframe[seamless] {
 .navbar-nav > li {
   padding-left: 10px;
   padding-right: 10px;
+  margin-top: 15px;
 }
 .navbar-nav > li > a {
   padding-left: 0px;
@@ -6397,7 +6398,7 @@ p {
 }
 .about p {
   font-size: 16px;
-  text-align: left;
+  text-align: center;
 }
 .entertain {
   overflow: hidden;
