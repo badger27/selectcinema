@@ -13,7 +13,28 @@
 
       <!-- SEO Meta Data -->
       <title>My Landing Page</title>
+      <meta name="author" content="Matthew Wagerfield">
+      <meta name="description" content="Simple, lightweight Parallax Engine that reacts to the orientation of a smart device">
+      <meta name="keywords" content="parallax,javascript,jquery,zepto,plugin">
 
+      <!-- Open Graph Meta Data -->
+      <meta property="og:description" content="Simple, lightweight Parallax Engine that reacts to the orientation of a smart device">
+      <meta property="og:image" content="http://wagerfield.github.io/parallax/assets/images/thumbnail.png">
+      <meta property="og:site_name" content="parallax.js">
+      <meta property="og:title" content="parallax.js">
+      <meta property="og:type" content="website">
+      <meta property="og:url" content="http://wagerfield.github.io/parallax/index.html">
+
+      <!-- Twitter Card Meta Data -->
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:site" content="http://wagerfield.github.io/parallax/index.html">
+      <meta name="twitter:creator" content="@mwagerfield">
+      <meta name="twitter:title" content="parallax.js">
+      <meta name="twitter:description" content="Simple, lightweight Parallax Engine that reacts to the orientation of a smart device">
+      <meta name="twitter:image" content="http://wagerfield.github.io/parallax/assets/images/thumbnail.png">
+
+      <!-- Humans -->
+      <link rel="author" href="humans.txt" />
 
       <!-- Styles -->
       <link rel="stylesheet" type="text/css" href="css/style.min.css">
@@ -48,9 +69,7 @@
 
       <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js" type="text/javascript"></script>-->
       <!--<link type="text/css" rel="stylesheet" href="css/default_skin.css" />-->
-      <!--<link href="css/default_skin_variation.css" type="text/css" rel="stylesheet" />-->
-
-      <link href="css/tooltip_skin_gulf.css" type="text/css" rel="stylesheet" />
+      <link href="css/default_skin_variation.css" type="text/css" rel="stylesheet" />
       <!--<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js" type="text/javascript"></script>-->
       <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
       <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js" type="text/javascript"></script>
@@ -58,23 +77,26 @@
       <script type="text/javascript">
         $(function() {
           $('.sky-carousel').carousel({
-            itemWidth: 240,
+            itemWidth: 170,
             itemHeight: 240,
-            distance: 500,
-            selectedItemDistance: 70,
+            distance: 15,
+            selectedItemDistance: 50,
             selectedItemZoomFactor: 1,
-            unselectedItemZoomFactor: 0.5,
-            unselectedItemAlpha: 0.9,
-            motionStartDistance: 200,
-            topMargin: 140,
+            unselectedItemZoomFactor: 0.67,
+            unselectedItemAlpha: 0.6,
+            motionStartDistance: 170,
+            topMargin: 119,
             gradientStartPoint: 0.35,
-            gradientOverlayColor: "#1f1f1f",
+            gradientOverlayColor: "#3065a2",
             gradientOverlaySize: 190,
-            selectByClick: false
+            reflectionDistance: 1,
+            reflectionAlpha: 0.35,
+            reflectionVisible: true,
+            reflectionSize: 70,
+            selectByClick: true
           });
         });
       </script>
-
 
     </head>
 
@@ -116,19 +138,13 @@
                  <li class="active"><a class="scroll" href="#ab">ABOUT</a></li>
                  <li><a class=""  href="#en">ENTERTAINMENT</a></li>
                  <li><a class=""  href="#su">SUBSCRIPTION</a></li>
-                 <li><a class=""  href="#how">HOW IT WORKS</a></li>
+                 <li><a class=""  href="#ho">HOW IT WORKS</a></li>
                  <li><a           href="#co">CONTACT</a></li>
               </ul>
             </nav>
            </div>
-            <!--<div class="row hidden-lg text-center">-->
-             <!--<a href="http://dstroot.github.io/landing-page-example/" class="navbar-brand">-->
-               <!--<img class="" src="img/s-c-logo.png" ></img>-->
-             <!--</a>-->
-            <!--</div>-->
 
            <div class="title">Select Cinema</div>
-
                <p>A subscription-based service for onboard movie and TV entertainment</p>
           </div><!-- Welcome End -->
      </div><!--row end-->
@@ -191,11 +207,180 @@
                       </div>
                   </div>
 
-
-
-
-
-
+                  <div class="sky-carousel">
+                    <div class="sky-carousel-wrapper">
+                      <ul class="sky-carousel-container">
+                        <li>
+                          <img src="img/2/1.jpg" alt="" />
+                          <div class="sc-content">
+                            <h2>Halloween Party Poster</h2>
+                            <p>Poster showing a green witch.</p>
+                          </div>
+                        </li>
+                        <li>
+                          <img src="img/2/2.jpg" alt="" />
+                          <div class="sc-content">
+                            <h2>Bloody Skull</h2>
+                            <p>Party poster with a bloody skull.</p>
+                          </div>
+                        </li>
+                        <li>
+                          <img src="img/2/3.jpg" alt="" />
+                          <div class="sc-content">
+                            <h2>Halloween Party Poster</h2>
+                            <p>Poster showing a Halloween pumpkin.</p>
+                          </div>
+                        </li>
+                        <li>
+                          <img src="img/2/4.jpg" alt="" />
+                          <div class="sc-content">
+                            <h2>Grunge Skull</h2>
+                            <p>Party poster with a grunge skull.</p>
+                          </div>
+                        </li>
+                        <li>
+                          <img src="img/2/5.jpg" alt="" />
+                          <div class="sc-content">
+                            <h2>Halloween Party Poster</h2>
+                            <p>Poster showing a werewolf.</p>
+                          </div>
+                        </li>
+                        <li>
+                          <img src="img/2/6.jpg" alt="" />
+                          <div class="sc-content">
+                            <h2>Halloween Vampire</h2>
+                            <p>Halloween party poster with a vampire.</p>
+                          </div>
+                        </li>
+                        <li>
+                          <img src="img/2/1.jpg" alt="" />
+                          <div class="sc-content">
+                            <h2>Halloween Party Poster</h2>
+                            <p>Poster showing a green witch.</p>
+                          </div>
+                        </li>
+                        <li>
+                          <img src="img/2/2.jpg" alt="" />
+                          <div class="sc-content">
+                            <h2>Bloody Skull</h2>
+                            <p>Party poster with a bloody skull.</p>
+                          </div>
+                        </li>
+                        <li>
+                          <img src="img/2/3.jpg" alt="" />
+                          <div class="sc-content">
+                            <h2>Halloween Party Poster</h2>
+                            <p>Poster showing a Halloween pumpkin.</p>
+                          </div>
+                        </li>
+                        <li>
+                          <img src="img/2/4.jpg" alt="" />
+                          <div class="sc-content">
+                            <h2>Grunge Skull</h2>
+                            <p>Party poster with a grunge skull.</p>
+                          </div>
+                        </li>
+                        <li>
+                          <img src="img/2/5.jpg" alt="" />
+                          <div class="sc-content">
+                            <h2>Halloween Party Poster</h2>
+                            <p>Poster showing a werewolf.</p>
+                          </div>
+                        </li>
+                        <li>
+                          <img src="img/2/6.jpg" alt="" />
+                          <div class="sc-content">
+                            <h2>Halloween Vampire</h2>
+                            <p>Halloween party poster with a vampire.</p>
+                          </div>
+                        </li>
+                        <li>
+                          <img src="img/2/1.jpg" alt="" />
+                          <div class="sc-content">
+                            <h2>Halloween Party Poster</h2>
+                            <p>Poster showing a green witch.</p>
+                          </div>
+                        </li>
+                        <li>
+                          <img src="img/2/2.jpg" alt="" />
+                          <div class="sc-content">
+                            <h2>Bloody Skull</h2>
+                            <p>Party poster with a bloody skull.</p>
+                          </div>
+                        </li>
+                        <li>
+                          <img src="img/2/3.jpg" alt="" />
+                          <div class="sc-content">
+                            <h2>Halloween Party Poster</h2>
+                            <p>Poster showing a Halloween pumpkin.</p>
+                          </div>
+                        </li>
+                        <li>
+                          <img src="img/2/4.jpg" alt="" />
+                          <div class="sc-content">
+                            <h2>Grunge Skull</h2>
+                            <p>Party poster with a grunge skull.</p>
+                          </div>
+                        </li>
+                        <li>
+                          <img src="img/2/5.jpg" alt="" />
+                          <div class="sc-content">
+                            <h2>Halloween Party Poster</h2>
+                            <p>Poster showing a werewolf.</p>
+                          </div>
+                        </li>
+                        <li>
+                          <img src="img/2/6.jpg" alt="" />
+                          <div class="sc-content">
+                            <h2>Halloween Vampire</h2>
+                            <p>Halloween party poster with a vampire.</p>
+                          </div>
+                        </li>
+                        <li>
+                          <img src="img/2/1.jpg" alt="" />
+                          <div class="sc-content">
+                            <h2>Halloween Party Poster</h2>
+                            <p>Poster showing a green witch.</p>
+                          </div>
+                        </li>
+                        <li>
+                          <img src="img/2/2.jpg" alt="" />
+                          <div class="sc-content">
+                            <h2>Bloody Skull</h2>
+                            <p>Party poster with a bloody skull.</p>
+                          </div>
+                        </li>
+                        <li>
+                          <img src="img/2/3.jpg" alt="" />
+                          <div class="sc-content">
+                            <h2>Halloween Party Poster</h2>
+                            <p>Poster showing a Halloween pumpkin.</p>
+                          </div>
+                        </li>
+                        <li>
+                          <img src="img/2/4.jpg" alt="" />
+                          <div class="sc-content">
+                            <h2>Grunge Skull</h2>
+                            <p>Party poster with a grunge skull.</p>
+                          </div>
+                        </li>
+                        <li>
+                          <img src="img/2/5.jpg" alt="" />
+                          <div class="sc-content">
+                            <h2>Halloween Party Poster</h2>
+                            <p>Poster showing a werewolf.</p>
+                          </div>
+                        </li>
+                        <li>
+                          <img src="img/2/6.jpg" alt="" />
+                          <div class="sc-content">
+                            <h2>Halloween Vampire</h2>
+                            <p>Halloween party poster with a vampire.</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
 
 
 
@@ -218,88 +403,29 @@
               </p>
             </div>
 
-           </div><!--SubscriptionEnd-->
-
-
+           </div><!--Entertain End-->
        </div><!--Row End-->
 
 
-
-        <div id="how" class="how">
-        <div class="sky-carousel">
-          <div class="sky-carousel-wrapper">
-            <ul class="sky-carousel-container">
-              <li>
-                <h1>01</h1>
-                <img src="img/sc-graphics/form-icon.png" alt=""/>
-                <p>Register online at <strong>SelectCinema.aero.</strong></p>
-                <div class="sc-content">
-
-                  <h2>How It Works</h2>
-                </div>
-              </li>
-
-              <li>
-                <h1>02</h1>
-                <img src="img/sc-graphics/configuration-icon.png" alt=""/>
-                <p>Build your customer profile. If you have more than one aircraft that you would like to provide content service for, be sure to add them to your profile.</p>
-                <div class="sc-content">
-                  <h2>How It Works</h2>
-                </div>
-              </li>
-              <li>
-                <h1>03</h1>
-                <img src="img/sc-graphics/notification-icon.png" alt=""/>
-                <p>
-                  Tell us about your preferences. Let us know how you would like to receive notifications and payment confirmations.
-                </p>
-                <div class="sc-content">
-                  <h2>How It Works</h2>
-                </div>
-              </li>
-
-
-
-              <li>
-                <h1>04</h1>
-                <img src="img/sc-graphics/aircraft-icon.png" alt=""/>
-                <p>
-                  Select your subscription option.
-                  If you are selecting a subscription for more than one aircraft,
-                  specify which option you would like for each of your aircraft.
-                </p>
-                <div class="sc-content">
-                  <h2>How It Works</h2>
-                </div>
-              </li>
-
-              <li>
-                <h1>05</h1>
-                <img src="img/sc-graphics/media-icon.png" alt=""/>
-                <p>
-                  Explore the media library and make your
-                  content selections.
-                </p>
-                <div class="sc-content">
-
-                  <h2>How It Works</h2>
-                </div>
-              </li>
-
-            </ul>
-          </div>
-        </div>
-        </div>
-
-
+        <!-- How it works Start-->
+        <div id="ho" class="row">
+          <div class="howitworks">
+            <div class="title">
+              How it works
+            </div>
+            <p>
+              Find the newest movies and TV show releases available to you onboard your aircraft.
+              New box office releseases added monthy.
+            </p>
+          </div><!--How it works  End-->
+        </div><!--Row End-->
 
 
         <!-- Contact Start-->
-
+        <div  class="row" style="margin-bottom:100px;">
 
             <div class="contact-form">
-              <div  class="row">
-             <div  class="container "  style="background: #c6a059;">
+            <div  class="container "  style="background: #c6a059;">
 
               <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">

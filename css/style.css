@@ -5913,7 +5913,7 @@ hr {
 }
 body {
   font-weight: 300;
-  background-color: #333;
+  background-color: #1f1f1f;
 }
 h1,
 h2,
@@ -5948,7 +5948,7 @@ p {
 }
 @media (max-width: 480px) {
   .title {
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     color: #c5a059;
     margin-top: 40px;
@@ -6268,6 +6268,15 @@ iframe[seamless] {
 .navbar-fixed-top {
   border-width: 0px;
 }
+.navbar-collapse {
+  max-height: 340px;
+  overflow-x: visible;
+  padding-right: 25px;
+  padding-left: 55px;
+  border-top: 1px solid transparent;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  -webkit-overflow-scrolling: touch;
+}
 .navbar-toggle {
   border: 2px solid #c5a059;
   margin-right: 30px;
@@ -6366,7 +6375,7 @@ p {
 @media (max-width: 480px) {
   .welcome p {
     width: 340px;
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 .about {
@@ -6381,7 +6390,7 @@ p {
 }
 .about p {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: lighter;
   text-align: left;
   letter-spacing: 0.3px;
@@ -6398,7 +6407,7 @@ p {
 .entertain p {
   font-family: 'Source Sans Pro', sans-serif;
   width: 80%;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: lighter;
   text-align: center;
   margin-bottom: 20px;
@@ -6409,55 +6418,26 @@ p {
   overflow: hidden;
   background-color: #1f1f1f;
   background-size: cover;
+  padding-bottom: 100px;
   width: 100%;
 }
 .subscription p {
   font-family: 'Source Sans Pro', sans-serif;
-  width: 700px;
-  font-size: 16px;
+  width: 80%;
+  font-size: 14px;
   font-weight: lighter;
   text-align: center;
   letter-spacing: 0.3px;
   color: white;
 }
-@media (max-width: 480px) {
-  .subscription p {
-    width: 340px;
-    font-size: 16px;
-  }
-}
-.howitworks {
-  overflow: hidden;
+.how {
   background-color: #1f1f1f;
-  background-size: cover;
-  height: 700px;
-  width: 100%;
+  padding-bottom: 100px;
 }
-.howitworks p {
-  font-family: 'Source Sans Pro', sans-serif;
-  width: 700px;
-  font-size: 24px;
-  font-weight: lighter;
-  text-align: center;
-  letter-spacing: 0.3px;
-  color: white;
-}
-.contacts {
-  overflow: hidden;
+.contact-form {
   background-color: #1f1f1f;
-  background-size: cover;
-  height: 700px;
   width: 100%;
-  text-align: center;
-}
-.contacts p {
-  font-family: 'Source Sans Pro', sans-serif;
-  width: 700px;
-  font-size: 24px;
-  font-weight: lighter;
-  text-align: center;
-  letter-spacing: 0.3px;
-  color: white;
+  padding-bottom: 100px;
 }
 .anchor {
   display: block;
@@ -6700,15 +6680,6 @@ p {
   margin: 5px;
   width: 87px;
 }
-.sky-carousel {
-  width: 960px;
-  height: 450px;
-  position: relative;
-  border: none  !important;
-  background: none !important;
-  overflow: hidden;
-  margin: 0 auto;
-}
 .affix {
   position: fixed;
   right: 0;
@@ -6808,5 +6779,5 @@ textarea {
   color: blue !important;
 }
 .logo {
-  padding: 10px;
+  padding: 10px 10px 10px 20px;
 }
