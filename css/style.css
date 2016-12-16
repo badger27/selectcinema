@@ -6781,3 +6781,35 @@ textarea {
 .logo {
   padding: 10px 10px 10px 20px;
 }
+.box {
+  height: 100px;
+  width: 200px;
+  border: 10px solid #111;
+  z-index: 1;
+  position: relative;
+}
+h1 {
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+}
+.box:before {
+  position: absolute;
+  top: -10px;
+  left: 10%;
+  content: "";
+  display: block;
+  height: 10px;
+  width: 80%;
+  background: white;
+}
+.box:after {
+  position: absolute;
+  bottom: -10px;
+  left: 10%;
+  content: "";
+  display: block;
+  height: 10px;
+  width: 80%;
+  background: white;
+}

@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e13e2b79-f91f-4848-8405-29d3cf2df819" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/movies/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/movies/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/movies/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/movies/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/movies/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/movies/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/tooltip_skin_movie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index02.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.min.css" afterPath="$PROJECT_DIR$/css/style.min.css" />
@@ -36,7 +28,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -49,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="786" column="23" lean-forward="true" selection-start-line="786" selection-start-column="23" selection-end-line="786" selection-end-column="23" />
+            <state relative-caret-position="576">
+              <caret line="1340" column="19" lean-forward="true" selection-start-line="1340" selection-start-column="19" selection-end-line="1340" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -79,6 +71,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="tooltip_skin_gulf.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/tooltip_skin_gulf.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="111" column="0" lean-forward="true" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -91,10 +93,8 @@
       <find>.form-control</find>
       <find>contact-form</find>
       <find>navbar</find>
-      <find>wel</find>
       <find>abou</find>
       <find>subscriptions</find>
-      <find>h2</find>
       <find>carous</find>
       <find>body</find>
       <find>subscript</find>
@@ -105,14 +105,16 @@
       <find>coll</find>
       <find>entertain</find>
       <find>images</find>
-      <find>test</find>
       <find>about</find>
       <find>welcome</find>
       <find>premiere</find>
       <find>p</find>
       <find>navbar-nav</find>
-      <find>premium</find>
       <find>title</find>
+      <find>test</find>
+      <find>h2</find>
+      <find>premium</find>
+      <find>wel</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -123,11 +125,11 @@
       <list>
         <option value="$PROJECT_DIR$/index-01.html" />
         <option value="$PROJECT_DIR$/less/carousel.less" />
-        <option value="$PROJECT_DIR$/css/tooltip_skin_gulf.css" />
         <option value="$PROJECT_DIR$/css/tooltip_skin_movie.css" />
         <option value="$PROJECT_DIR$/index02.html" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/tooltip_skin_gulf.css" />
         <option value="$PROJECT_DIR$/less/style.less" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -145,8 +147,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="67" />
-    <option name="y" value="23" />
+    <option name="x" value="105" />
+    <option name="y" value="137" />
     <option name="width" value="1214" />
     <option name="height" value="873" />
   </component>
@@ -189,6 +191,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="less" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="selectcinema" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="selectcinema" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -294,15 +310,15 @@
       <workItem from="1481560054980" duration="28883000" />
       <workItem from="1481733445512" duration="25010000" />
       <workItem from="1481822830917" duration="1719000" />
-      <workItem from="1481836741720" duration="21856000" />
+      <workItem from="1481836741720" duration="22508000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77468000" />
+    <option name="totallyTimeSpent" value="78120000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="23" width="1214" height="873" extended-state="0" />
+    <frame x="105" y="137" width="1214" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27326068" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -469,14 +485,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/tooltip_skin_gulf.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="977">
-          <caret line="318" column="27" lean-forward="true" selection-start-line="318" selection-start-column="27" selection-end-line="318" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index01.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -489,6 +497,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="98" column="57" lean-forward="true" selection-start-line="98" selection-start-column="57" selection-end-line="98" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/tooltip_skin_gulf.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="111" column="0" lean-forward="true" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="1340" column="19" lean-forward="true" selection-start-line="1340" selection-start-column="19" selection-end-line="1340" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -509,14 +533,6 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#4;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/style.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="786" column="23" lean-forward="true" selection-start-line="786" selection-start-column="23" selection-end-line="786" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
