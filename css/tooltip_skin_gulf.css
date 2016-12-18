@@ -101,12 +101,27 @@
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
+
+@media (max-width: 460px) {
+
+  .how .sky-carousel .sky-carousel-container li p {
+    top: 125px;
+    left: -100px;
+  }
+}
+
 .how .sky-carousel .sky-carousel-container li img {
 	color:white;
 	position:absolute;
-  top: -35px;
+  top: -145px;
   left: 240px;
+}
 
+@media (max-width: 460px) {
+  .how .sky-carousel .sky-carousel-container li img  {
+    top: 55px;
+    left: -55px;
+  }
 }
 
 
@@ -148,17 +163,27 @@
 .how .sky-carousel .sc-content-wrapper {
 	position: absolute;
 	text-align: center;
-	top: 40%;
-	left: 20%;
+	top: 10%;
+	left: 60%;
 	z-index: 4999;
 }
 
 .how .sky-carousel .sc-content-container {
 	position: relative;
-	left: -50%;
+	left: -200%;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	padding: 0;
 }
+
+
+@media (max-width: 460px) {
+  .how .sky-carousel .sc-content-container  {
+    left: -50%;
+  }
+}
+
+
+
 
 .how .sky-carousel .sc-content-wrapper .sc-content-container .sc-content {
 
@@ -278,9 +303,22 @@
 	background: url("../img/sc-graphics/test.png") no-repeat -42px -41px;
 }
 
+@media (max-width: 460px) {
+  .how .sky-carousel .sc-nav-button.sc-next {
+    right: 50% !important;
+  }
+}
+
 .how .sky-carousel .sc-nav-button.sc-prev {
 	background: url("../img/sc-graphics/test.png") no-repeat 0px 0px;
 	left: 45%;
+}
+
+
+@media (max-width: 460px) {
+  .how .sky-carousel .sc-nav-button.sc-prev{
+    left: 25% !important;
+  }
 }
 
 .no-touch  .how .sky-carousel .sc-nav-button.sc-prev:hover {
