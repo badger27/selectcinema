@@ -6272,7 +6272,7 @@ iframe[seamless] {
 }
 @media (min-width: 1224px) {
   .navbar-nav > li > a {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 @media (min-width: 768px) {
@@ -6416,7 +6416,7 @@ p {
 .welcome {
   overflow: hidden;
   background-color: #1f1f1f;
-  background: url("../img/fantastic-beasts.jpg") top center;
+  background: url("../img/header-image@2x.jpg") top center;
   background-size: cover;
   height: 800px;
   width: 100%;
@@ -6430,7 +6430,7 @@ p {
 }
 @media (min-width: 1224px) {
   .welcome {
-    height: 1200px;
+    height: 1300px;
   }
   .welcome p {
     font-size: 34px;
@@ -6474,9 +6474,11 @@ p {
   overflow: hidden;
   position: relative;
   background-color: #1f1f1f;
-  background: url("../img/background.jpg") top center !important;
-  background-size: cover;
-  padding-bottom: 100px;
+  background: url("../img/background.jpg") top left no-repeat !important;
+  background-size: cover !important;
+  padding-bottom: 100px !important;
+  width: 100% !important;
+  height: 100% !important;
 }
 .entertain p {
   font-family: 'Source Sans Pro', sans-serif;
@@ -6774,7 +6776,7 @@ p {
   padding: 25px;
   font-size: 30px;
   font-weight: 300;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "'Playfair Display',serif";
 }
 .form-group .form-control {
   -webkit-box-shadow: none;
