@@ -587,7 +587,7 @@ overflow:auto
 }
 .navbar-nav > li > a {
   padding-left: 0px;
-  padding-right: 0px;
+  padding-right: 20px;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 10px;
   font-weight: normal;
@@ -600,6 +600,31 @@ overflow:auto
   //border: 2px solid transparent;
   height: 42px;
 }
+
+
+
+@media (max-width: 480px) {
+  .navbar-collapse {
+    background: @gold;
+
+  }
+}
+
+@media (min-width : 1224px) {
+  .navbar-nav > li > a {
+
+    font-size: 20px;
+
+  }
+
+}
+
+
+
+
+
+
+
 .navbar-nav > li > a:hover,
 .navbar-nav > li > a:focus {
   background-color: transparent;
@@ -687,6 +712,7 @@ overflow:auto
     margin-right: 5px;
   }
 }
+
 
 
 // Jumbotron
@@ -782,7 +808,6 @@ p{
 
 .welcome {
       overflow: hidden;
-      //position: relative;
       background-color: @brand-primary;
       background: url("../img/fantastic-beasts.jpg") top center;
       background-size: cover;
@@ -795,20 +820,32 @@ p{
 
       p {
         width: 540px;
-        //height: 62px;
-        //font-family: 'Source Sans Pro', sans-serif;
         font-size: 24px;
-        //font-weight: 300;
-        //font-style: normal;
-        //font-stretch: normal;
-        //letter-spacing: 0.3px;
-        //
-        //color: #ffffff;
-        //margin: 0 auto ;
       }
 
-
 }  //Welcome end
+
+@media (min-width : 1224px) {
+  .welcome {
+    height: 1200px;
+  }
+
+  .welcome  p{
+      font-size: 34px;
+      width: 640px;
+
+    }
+
+  .welcome  .title{
+    font-size: 60px;
+
+
+  }
+
+}
+
+
+
 
 @media (max-width: 480px) {
   .welcome p {
@@ -832,9 +869,17 @@ p{
 
   p {
     font-size: 16px;
-    text-align: center;
+    text-align: left;
   }
 } //About End
+
+@media (max-width: 480px) {
+  .about p {
+    text-align: center;
+  }
+}
+
+
 
 
 //Entertain Start
@@ -1312,11 +1357,15 @@ input, select, textarea{
 }
 
 .logo {
-  padding: 10px 10px 10px 20px;
-
+  padding: 10px 10px 10px 50px;
 
 }
 
+@media (min-width : 1224px) {
+  .logo {
+    width:150%;
+  }
+}
 //border break
 
 .box
@@ -1369,5 +1418,37 @@ h1
   margin-top:50px;
 
 
+}
+
+input[type="email"]::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color:    #333 !important;
+}
+
+ input[type="text"]::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color:    #333 !important;
+}
+
+input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color:  #333 !important;
+}
+
+
+
+
+::-webkit-input-placeholder, :-moz-placeholder {
+  color: red;
+}
+
+
+.form-group .form-control input, form-control{ /* Mozilla Firefox 4 to 18 */
+  color:    black;
+  opacity:  1;
+}
+.form-label::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color:    black;
+  opacity:  1;
+}
+.form-label:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color:    black;
 }
 
