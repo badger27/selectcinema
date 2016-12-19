@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e13e2b79-f91f-4848-8405-29d3cf2df819" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/tooltip_skin_gulf.css" afterPath="$PROJECT_DIR$/css/tooltip_skin_gulf.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -72,8 +72,8 @@
       <file leaf-file-name="tooltip_skin_gulf.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/tooltip_skin_gulf.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="320" column="27" lean-forward="false" selection-start-line="320" selection-start-column="26" selection-end-line="320" selection-end-column="27" />
+            <state relative-caret-position="266">
+              <caret line="328" column="3" lean-forward="true" selection-start-line="328" selection-start-column="3" selection-end-line="328" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -83,7 +83,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>p</find>
       <find>h2</find>
       <find>wel</find>
       <find>margin-right</find>
@@ -113,6 +112,7 @@
       <find>45</find>
       <find>sc-nav-button</find>
       <find>next</find>
+      <find>sc-next</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -294,12 +294,12 @@
       <workItem from="1481560054980" duration="28883000" />
       <workItem from="1481733445512" duration="25010000" />
       <workItem from="1481822830917" duration="1719000" />
-      <workItem from="1481836741720" duration="45891000" />
+      <workItem from="1481836741720" duration="46700000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101503000" />
+    <option name="totallyTimeSpent" value="102312000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="26" y="23" width="1299" height="873" extended-state="0" />
@@ -551,8 +551,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/tooltip_skin_gulf.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="320" column="27" lean-forward="false" selection-start-line="320" selection-start-column="26" selection-end-line="320" selection-end-column="27" />
+        <state relative-caret-position="266">
+          <caret line="328" column="3" lean-forward="true" selection-start-line="328" selection-start-column="3" selection-end-line="328" selection-end-column="3" />
           <folding />
         </state>
       </provider>
