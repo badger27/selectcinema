@@ -85,6 +85,7 @@
             itemWidth: 180,
             itemHeight: 240,
             distance: 1600,
+            startIndex:0,
             selectedItemDistance: 70,
             selectedItemZoomFactor: 1,
             unselectedItemZoomFactor: 0.5,
@@ -117,24 +118,24 @@
       </script>
 
 
-      <script>
-        function scrollNav() {
-          $('.scroll a').click(function(){
-            //Toggle Class
-            $(".active").removeClass("active");
-            $(this).closest('li').addClass("active");
-            var theClass = $(this).attr("class");
-            $('.'+theClass).parent('li').addClass('active');
-            //Animate
-            $('html, body').stop().animate({
-              scrollTop: $( $(this).attr('href') ).offset().top - 160
-            }, 400);
-            return false;
-          });
-          $('.scrollTop a').scrollTop();
-        }
-        scrollNav();
-      </script>
+      <!--<script>-->
+        <!--function scrollNav() {-->
+          <!--$('.scroll a').click(function(){-->
+            <!--//Toggle Class-->
+            <!--$(".active").removeClass("active");-->
+            <!--$(this).closest('li').addClass("active");-->
+            <!--var theClass = $(this).attr("class");-->
+            <!--$('.'+theClass).parent('li').addClass('active');-->
+            <!--//Animate-->
+            <!--$('html, body').stop().animate({-->
+              <!--scrollTop: $( $(this).attr('href') ).offset().top - 160-->
+            <!--}, 400);-->
+            <!--return false;-->
+          <!--});-->
+          <!--$('.scrollTop a').scrollTop();-->
+        <!--}-->
+        <!--scrollNav();-->
+      <!--</script>-->
 
 
     </head>
@@ -160,13 +161,14 @@
                  <span class="icon-bar"></span>
                  <span class="icon-bar"></span>
                </button>
-               <a href="http://dstroot.github.io/landing-page-example/" class="navbar-brand"><img class="logo" src="img/s-c-logo.svg" ></img></a>
+
 
              </div>
 
 
-             <nav class="collapse navbar-collapse  " role="navigation">
-               <ul class="nav navbar-nav navbar-right affix">
+             <nav class="collapse navbar-collapse  affix " role="navigation">
+               <a  class="navbar-brand"><img class="logo" src="img/s-c-logo.svg" ></img></a>
+               <ul class="nav navbar-nav navbar-right ">
                  <li class="active"><a class="scroll" href="#ab">ABOUT</a></li>
                  <li><a class=""  href="#en">ENTERTAINMENT</a></li>
                  <li><a class=""  href="#su">SUBSCRIPTION</a></li>
