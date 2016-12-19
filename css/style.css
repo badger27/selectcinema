@@ -6272,6 +6272,12 @@ iframe[seamless] {
 }
 @media (min-width: 1224px) {
   .navbar-nav > li > a {
+    height: 42px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 5px;
     font-size: 16px;
   }
 }
@@ -6310,9 +6316,16 @@ iframe[seamless] {
   padding-right: 25px;
   padding-left: 55px;
   border-top: 1px solid transparent;
-  background: rgba(0, 0, 0, 0.7);
   width: 100%;
   -webkit-overflow-scrolling: touch;
+}
+@media (max-width: 480px) {
+  .navbar-collapse {
+    margin: 0;
+    padding-left: 0px;
+    background: #c5a059;
+    width: 100%;
+  }
 }
 .navbar-toggle {
   border: 2px solid #c5a059;
