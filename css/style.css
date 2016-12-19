@@ -6406,6 +6406,7 @@ p {
     width: 640px;
   }
   .welcome .title {
+    margin-top: 150px;
     font-size: 60px;
   }
 }
@@ -6722,7 +6723,7 @@ p {
 .affix {
   position: fixed;
   right: 0;
-  z-index: 300;
+  z-index: 9000;
 }
 #success-message {
   opacity: 0;
