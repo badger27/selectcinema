@@ -610,13 +610,23 @@ overflow:auto
   }
 }
 
+//only portrait Ipad
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+
+  .navbar-nav > li > a {
+    padding-right: 0px;
+  }
+}
+
+
 @media (min-width : 1224px) {
   .navbar-nav > li > a {
 
     font-size: 20px;
-
   }
-
 }
 
 
@@ -921,7 +931,7 @@ and (orientation : portrait) {
       overflow: hidden;
       position: relative;
       background-color: @brand-primary;
-      background: url("../img/fantastic-beasts-op.jpg") top center;
+      background: url("../img/background.jpg") top center !important;
       background-size: cover;
       padding-bottom: 100px;
 
@@ -1391,7 +1401,7 @@ input, select, textarea{
 }
 
 .logo {
-  padding: 10px 10px 10px 50px;
+  padding: 10px 10px 10px 10px;
 
 }
 

@@ -71,6 +71,7 @@
             unselectedItemAlpha: 0.9,
             motionStartDistance: 200,
             topMargin: 140,
+
             gradientStartPoint: 0.0,
             gradientOverlayColor: "#292929",
             gradientOverlaySize: 0,
@@ -92,6 +93,7 @@
             unselectedItemAlpha: 0.9,
             motionStartDistance: 200,
             topMargin: 140,
+            enableMouseWheel:false,
             gradientStartPoint: 0.0,
             gradientOverlayColor: "#292929",
             gradientOverlaySize: 0,
@@ -345,10 +347,8 @@
 
        </div><!--Row End-->
 
-
-
-        <div id="how" class="how">
-        <div class="sky-carousel">
+        <div id="how" class="how" >
+        <div class="sky-carousel" data-interval="false">
           <div class="sky-carousel-wrapper">
             <ul class="sky-carousel-container">
               <li>
@@ -506,19 +506,19 @@
         </script>
 
         <!-- toTop function -->
-        <script>
-          $(document).ready(function() {
-            // Async Load
-            $.getScript("js/vendor/totop.js/totop.min.js")
-            .done(function(script, textStatus) {
-              console.log("ToTop loaded.");
-              $().totop();
-            })
-            .fail(function(jqxhr, settings, exception) {
-              console.log("ToTop load failed.");
-            });
-          });
-        </script>
+        <!--<script>-->
+          <!--$(document).ready(function() {-->
+            <!--// Async Load-->
+            <!--$.getScript("js/vendor/totop.js/totop.min.js")-->
+            <!--.done(function(script, textStatus) {-->
+              <!--console.log("ToTop loaded.");-->
+              <!--$().totop();-->
+            <!--})-->
+            <!--.fail(function(jqxhr, settings, exception) {-->
+              <!--console.log("ToTop load failed.");-->
+            <!--});-->
+          <!--});-->
+        <!--</script>-->
 
 
     </body>
