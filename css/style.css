@@ -6234,6 +6234,14 @@ iframe[seamless] {
     overflow: auto;
   }
 }
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background: transparent;
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+  height: 42px;
+}
 .navbar-nav > li {
   padding-left: 10px;
   padding-right: 10px;
@@ -6260,6 +6268,16 @@ iframe[seamless] {
 @media (min-width: 1224px) {
   .navbar-nav > li > a {
     font-size: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-nav.navbar-right:last-child {
+    margin-right: 115px;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .navbar-nav.navbar-right:last-child {
+    margin-right: 5px;
   }
 }
 .navbar-nav > li > a:hover,
@@ -6312,6 +6330,13 @@ iframe[seamless] {
   float: left;
   margin-top: 1px;
   margin-right: 5px;
+}
+@media (max-width: 480px) {
+  .navbar-nav {
+    margin: 0;
+    background: #c5a059;
+    width: 100%;
+  }
 }
 .jumbotron {
   margin-bottom: 0px;
@@ -6430,6 +6455,11 @@ p {
   text-align: left;
 }
 @media (max-width: 480px) {
+  .about p {
+    text-align: center;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   .about p {
     text-align: center;
   }

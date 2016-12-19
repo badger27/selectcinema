@@ -562,23 +562,23 @@ overflow:auto
 // ============================================================
 
 // White Outline
-// .navbar-nav {
-//     > .active {
-//         // border-bottom: 4px solid transparent;
-//         // border-color: #fff;
-//         //border-radius: @border-radius-base;
-//       }
-//     }
+ .navbar-nav {
+     > .active {
+         // border-bottom: 4px solid transparent;
+         // border-color: #fff;
+         //border-radius: @border-radius-base;
+       }
+     }
 
 
-// .navbar-default .navbar-nav > .active > a,
-// .navbar-default .navbar-nav > .active > a:hover,
-// .navbar-default .navbar-nav > .active > a:focus {
-//   background: transparent;
-//   color: @white;
-//   border-bottom: 2px solid @white;
-//   height: 42px;
-// }
+ .navbar-default .navbar-nav > .active > a,
+ .navbar-default .navbar-nav > .active > a:hover,
+ .navbar-default .navbar-nav > .active > a:focus {
+   background: transparent;
+   color: @white;
+   border-bottom: 2px solid @white;
+   height: 42px;
+ }
 
 .navbar-nav > li {
   padding-left: 10px;
@@ -620,8 +620,23 @@ overflow:auto
 }
 
 
+@media (min-width: 768px) {
+  .navbar-nav.navbar-right:last-child {
+    margin-right: 115px;
+  }
+}
 
 
+//only portrait Ipad
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+
+  .navbar-nav.navbar-right:last-child {
+    margin-right: 5px;
+  }
+}
 
 
 
@@ -636,8 +651,6 @@ overflow:auto
   color: #fff;
   border-bottom-color: #fff;
 }
-
-
 
 
 
@@ -714,6 +727,13 @@ overflow:auto
 }
 
 
+@media (max-width: 480px) {
+  .navbar-nav{
+    margin: 0;
+    background: @gold;
+    width: 100%;
+  }
+}
 
 // Jumbotron
 // --------------------------------------------------------
@@ -847,6 +867,7 @@ p{
 
 
 
+
 @media (max-width: 480px) {
   .welcome p {
     width: 340px;
@@ -874,6 +895,17 @@ p{
 } //About End
 
 @media (max-width: 480px) {
+  .about p {ç
+    text-align: center;
+  }
+}
+
+//only portrait Ipad
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+
   .about p {
     text-align: center;
   }
