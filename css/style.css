@@ -5914,6 +5914,7 @@ hr {
 body {
   font-weight: 300;
   background-color: #1f1f1f;
+  overflow-x: hidden;
 }
 h1,
 h2,
@@ -6386,6 +6387,11 @@ p {
   width: 540px;
   font-size: 24px;
 }
+@media (max-width: 480px) {
+  .welcome p {
+    width: 340px;
+  }
+}
 .about {
   overflow: hidden;
   position: relative;
@@ -6430,6 +6436,11 @@ p {
   text-align: center;
   letter-spacing: 0.3px;
   color: white;
+}
+@media (max-width: 480px) {
+  .subscription {
+    padding-bottom: 0px;
+  }
 }
 .how {
   background-color: #1f1f1f;
@@ -6813,4 +6824,12 @@ h1 {
   height: 10px;
   width: 80%;
   background: white;
+}
+.form-label label {
+  color: red;
+}
+.imgwrapper {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
 }

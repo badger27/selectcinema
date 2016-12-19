@@ -76,7 +76,7 @@
 
 @media (max-width: 460px) {
   .how .sky-carousel {
-		width: 460px;
+    width: 100%
 	}
 }
 
@@ -175,14 +175,11 @@
 	padding: 0;
 }
 
-
 @media (max-width: 460px) {
   .how .sky-carousel .sc-content-container  {
-    left: -50%;
+    left: -45%;
   }
 }
-
-
 
 
 .how .sky-carousel .sc-content-wrapper .sc-content-container .sc-content {
@@ -223,10 +220,13 @@
 	font-style: normal;
 	font-stretch: normal;
 	letter-spacing: 0.2px;
-
-
 }
 
+@media (max-width: 460px) {
+  .how .sky-carousel .sc-content-wrapper .sc-content-container .sc-content h2 {
+    font-size:20px;
+  }
+}
 
 
 
