@@ -23,11 +23,28 @@
 .navbar-nav > li {
   padding-left: 10px;
   padding-right: 10px;
-  margin-top: 15px;
+
 }
+
+
+.navbar-nav li:last-child  {
+  padding-left: 10px;
+  padding-right: 5px;
+  border: solid 2px grey;
+
+}
+
+
+
+.navbar-nav.navbar-right {
+
+  background : none;
+  height : 100%;
+
+}
+
 .navbar-nav > li > a {
-  padding-left: 0px;
-  padding-right: 20px;
+
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 10px;
   font-weight: normal;
@@ -35,7 +52,7 @@
   font-stretch: normal;
   letter-spacing: 5px;
   color: #ffffff;
-
+  letter-spacing: 4px;
   color: rgba(255,255,255,.50);
   //border: 2px solid transparent;
   height: 42px;
@@ -62,17 +79,17 @@ and (orientation : portrait) {
 }
 
 
-@media (min-width : 1224px) {
-  .navbar-nav > li > a {
-    height: 42px;
-    font-family: 'Source Sans Pro',sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-stretch: normal;
-    letter-spacing: 5px;
-    font-size: 16px;
-  }
-}
+//@media (min-width : 1224px) {
+//  .navbar-nav > li > a {
+//    height: 42px;
+//    font-family: 'Source Sans Pro',sans-serif;
+//    font-weight: 400;
+//    font-style: normal;
+//    font-stretch: normal;
+//    letter-spacing: 5px;
+//
+//  }
+//}
 
 
 
@@ -138,11 +155,11 @@ and (orientation : portrait) {
 .navbar-collapse {
   max-height: 340px;
   overflow-x: visible;
-  padding-right: 25px;
-  padding-left: 55px;
+  padding-right: 69px;
+  padding-left: 46px;
   border-top: 1px solid transparent;
   //box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
-  background-color: rgba(0,0,0,1);
+  background-color: rgba(0,0,0,0.6);
   width: 100%;
   -webkit-overflow-scrolling: touch;
 }
@@ -186,6 +203,13 @@ and (orientation : portrait) {
   }
 }
 
+.navbar-brand {
+  float: left;
+  padding: 20px 0 20px 0;
+  font-size: 18px;
+
+}
+
 
 @media (max-width: 480px) {
   .navbar-nav{
@@ -195,14 +219,19 @@ and (orientation : portrait) {
   }
 }
 
+.logo{
 
-
-
-.logo {
-  padding: 10px 10px 10px 46px;
-  width:250px;
-
+  text-align: center;
+  width:175px;
 }
+
+@media (max-width: 720px) {
+.logo {
+
+  width:175px;
+   }
+}
+
 
 @media (min-width : 1224px) {
   .logo {
@@ -210,16 +239,18 @@ and (orientation : portrait) {
   }
 }
 
-//@media (min-width: 768px) {
-//  .navbar-nav.navbar-left:last-child {
-//    margin-right: 115px !important;
-//    background: red;
-//  }
-//}
+//only portrait Ipad
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
 
-
-.border{
-   border: solid 2px;
+  .logo {
+    width:175px;
+  }
 }
+
+
+
 
 
