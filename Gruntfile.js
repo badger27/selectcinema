@@ -103,14 +103,14 @@ module.exports = function(grunt) {
 
     //Watch and LiveReload configuration
     watch: {
-      // js: {
-      //   files: ['js/toTop.js'],
-      //   //tasks: ['concat:js', 'uglify:js'],
-      //   tasks: ['uglify'],
-      //   options: {
-      //     livereload: true,
-      //   }
-      // },
+       js: {
+         files: ['js/toTop.js'],
+         tasks: ['concat:js', 'uglify:js'],
+         tasks: ['uglify'],
+         options: {
+           livereload: true,
+         }
+       },
       css: {
         files: ['less/*.less', 'less/bootstrap/*.less'],
         tasks: ['less'],

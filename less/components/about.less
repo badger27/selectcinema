@@ -1,0 +1,41 @@
+// Bring in bootstrap
+// --------------------------------------------------
+@import "./js/vendor/bootstrap/less/bootstrap.less";
+
+//About Start
+.about {
+  overflow: hidden;
+  position: relative;
+  background-image: radial-gradient(circle at 35% 47%, #2e2e2e, #181719);
+
+  background-size: cover;
+  padding-bottom: 100px;
+
+
+  img{
+    width:100%;
+  }
+
+  p {
+    font-size: 16px;
+    text-align: left;
+  }
+} //About End
+
+@media (max-width: 480px) {
+  .about p {
+    text-align: center;
+  }
+}
+
+//only portrait Ipad
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+
+  .about p {
+    text-align: center;
+  }
+}
+

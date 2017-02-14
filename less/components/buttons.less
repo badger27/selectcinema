@@ -1,0 +1,42 @@
+// Bring in bootstrap
+// --------------------------------------------------
+@import "./js/vendor/bootstrap/less/bootstrap.less";
+
+//buttons
+
+.btn-primary {
+  color: #fff;
+  background-color: @gold;
+  border-color: @gold;
+  border-style:  solid ;
+  //border-collapse: separate;
+  //border-spacing: 10px 50px;
+}
+
+.btn-outer {
+  display: inline-block;
+  border: 1px solid @gold;
+  font-size: 12px;
+  width:100px;
+  text-align: center;
+  color:@gold;
+
+}
+
+
+
+.btn-outer .btn-inner {
+  padding: 5px 5px;
+  background: none;
+  margin: 5px;
+  width:87px;
+}
+
+
+
+.btn-outer.btn-inner:hover {
+  padding: 5px 5px;
+  background: @gold;
+  margin: 5px;
+  width:87px;
+}

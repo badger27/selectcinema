@@ -316,8 +316,14 @@
 
 .how .sky-carousel .sc-nav-button.sc-next {
 	background: url("../img/sc-graphics/test.png") no-repeat -42px 0px;
-	right: 45%;
+  margin-left: 25px;
 }
+
+.how .sky-carousel .sc-nav-button.sc-prev {
+  background: url("../img/sc-graphics/test.png") no-repeat 0px 0px;
+  margin-left: -65px;
+}
+
 
 .no-touch .how .sky-carousel .sc-nav-button.sc-next:hover {
 	background: url("../img/sc-graphics/test.png") no-repeat -42px -41px;
@@ -329,10 +335,6 @@
   }
 }
 
-.how .sky-carousel .sc-nav-button.sc-prev {
-	background: url("../img/sc-graphics/test.png") no-repeat 0px 0px;
-	left: 45%;
-}
 
 
 @media (max-width: 460px) {

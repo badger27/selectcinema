@@ -1,0 +1,225 @@
+
+@import "./js/vendor/bootstrap/less/bootstrap.less";
+
+// White Outline
+.navbar-nav {
+  > .active {
+    // border-bottom: 4px solid transparent;
+    // border-color: #fff;
+    //border-radius: @border-radius-base;
+  }
+}
+
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background: transparent;
+  color: @white;
+  border-bottom: 2px solid @white;
+  height: 42px;
+}
+
+.navbar-nav > li {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 15px;
+}
+.navbar-nav > li > a {
+  padding-left: 0px;
+  padding-right: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 5px;
+  color: #ffffff;
+
+  color: rgba(255,255,255,.50);
+  //border: 2px solid transparent;
+  height: 42px;
+}
+
+
+
+@media (max-width: 480px) {
+  .navbar-collapse {
+    background: @gold;
+
+  }
+}
+
+//only portrait Ipad
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+
+  .navbar-nav > li > a {
+    padding-right: 0px;
+  }
+}
+
+
+@media (min-width : 1224px) {
+  .navbar-nav > li > a {
+    height: 42px;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 5px;
+    font-size: 16px;
+  }
+}
+
+
+
+
+//only portrait Ipad
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+
+  .navbar-nav.navbar-right:last-child {
+    margin-right: 5px;
+  }
+}
+
+
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: rgba(255,255,255,.50);
+}
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+
+
+// Puts a carat under the active navbar item
+// .navbar-nav .active:after {
+//   color: @white;
+//   position: absolute;
+//   bottom: 0;
+//   left: 50%;
+//   display: block;
+//   content: " ";
+//   width: 0;
+//   height: 0;
+//   margin-left: -5px;
+//   vertical-align: middle;
+//   border-right: 10px solid transparent;
+//   border-left: 10px solid transparent;
+//   border-bottom: 10px solid;
+// }
+
+.navbar {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.navbar-default{
+
+}
+// remove the border
+.navbar-fixed-top {
+  border-width: 0px;
+}
+
+.navbar-collapse {
+  max-height: 340px;
+  overflow-x: visible;
+  padding-right: 25px;
+  padding-left: 55px;
+  border-top: 1px solid transparent;
+  //box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+  background-color: rgba(0,0,0,1);
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+
+@media (max-width: 480px) {
+  .navbar-collapse {
+    margin: 0;
+    padding-left: 0px;
+    background: @gold;
+    width: 100%;
+  }
+}
+
+
+.navbar-toggle {
+  border: 2px solid @gold;
+  margin-right: 30px;
+  margin-top: 30px
+
+}
+
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+  background: @gold;
+}
+
+// Tweak the brand
+.navbar-brand {
+  font-size: 20px;
+  margin-top: -1px;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  // Prevent Font Awesome icon from increasing height of navbar
+  > .fa {
+    float: left;
+    margin-top: 1px;
+    margin-right: 5px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .navbar-nav{
+    margin: 0;
+    background: @gold;
+    width: 100%;
+  }
+}
+
+
+
+
+.logo {
+  padding: 10px 10px 10px 46px;
+  width:250px;
+
+}
+
+@media (min-width : 1224px) {
+  .logo {
+    width:350px;
+  }
+}
+
+//@media (min-width: 768px) {
+//  .navbar-nav.navbar-left:last-child {
+//    margin-right: 115px !important;
+//    background: red;
+//  }
+//}
+
+
+.border{
+   border: solid 2px;
+}
+
+

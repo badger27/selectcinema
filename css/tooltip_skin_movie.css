@@ -44,11 +44,11 @@
 	}
 
 	.entertain .sky-carousel .sc-nav-button.sc-next {
-		right: 5px !important;
+		right: 35%;
 	}
 
 	.entertain  .sky-carousel .sc-nav-button.sc-prev {
-		left: 5px !important;
+		left: 35%;
 	}
 }
 
@@ -69,11 +69,11 @@
 	padding-bottom: 100px;}
 
 .entertain .sky-carousel {
-	width: 960px;
+	width: 80%;
 	height: 500px;
 	position: relative;
 	/*border: 1px solid #dbdbdb;*/
-	background: none;
+	/*background: red;*/
 	overflow: hidden;
 	margin: 0 auto;
 }
@@ -227,17 +227,23 @@
 
 .entertain .sky-carousel .sc-nav-button.sc-next {
 	background: url("../img/sc-graphics/test.png") no-repeat -42px 0px;
-	right: 45%;
+  margin-left: 25px;
+
+
 }
+
+.entertain .sky-carousel .sc-nav-button.sc-prev {
+  background: url("../img/sc-graphics/test.png") no-repeat 0px 0px;
+
+  margin-left: -65px;
+
+}
+
 
 .no-touch .entertain .sky-carousel .sc-nav-button.sc-next:hover {
 	background: url("../img/sc-graphics/test.png") no-repeat -42px -41px;
 }
 
-.entertain .sky-carousel .sc-nav-button.sc-prev {
-	background: url("../img/sc-graphics/test.png") no-repeat 0px 0px;
-	left: 45%;
-}
 
 .no-touch .entertain .sky-carousel .sc-nav-button.sc-prev:hover {
 	background: url("../img/sc-graphics/test.png") no-repeat 0px -41px;
@@ -275,4 +281,6 @@
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
+  text-align: center;
+
 }
