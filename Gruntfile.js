@@ -156,6 +156,6 @@ module.exports = function(grunt) {
   grunt.registerTask('validate-css', ['csslint']);
 
   // Default Task (drives LiveReload)
-  grunt.registerTask('default', [ 'clean', 'less', 'validation', 'connect', 'watch' ]);
+  grunt.registerTask('default', [ 'clean', 'less','connect', 'watch' ]);
 
 };
