@@ -85,6 +85,14 @@
 	}
 }
 
+.how .sky-carousel .carousel-box{
+
+  width:500px;
+  height:500px;
+  border: solid 5px red;
+
+}
+
 
 .how .sky-carousel .sky-carousel-container {
 	position: relative;
@@ -96,11 +104,11 @@
 
 .how .sky-carousel .sky-carousel-container li p {
 	color:white;
-	font-size: 12px;
+	font-size: 14px;
 	width: 250px;
   text-align: left;
 	position:absolute;
-  top: -60px;
+  top: 5px;
 	left: 200px;
 	font-weight: 100;
 	font-family: 'Source Sans Pro', sans-serif;
@@ -118,7 +126,7 @@
 .how .sky-carousel .sky-carousel-container li img {
 	color:white;
 	position:absolute;
-  top: -145px;
+  top: -65px;
   left: 240px;
 }
 
@@ -176,10 +184,29 @@
 .how .sky-carousel .sc-content-wrapper {
 	position: absolute;
 	text-align: center;
-	top: 10%;
-	left: 60%;
+	top: 30%;
+	left: 50%;
 	z-index: 4999;
 }
+
+
+/*mobile*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+
+
+  .how .sky-carousel .sc-content-wrapper {
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 55%;
+    z-index: 4999;
+  }
+
+}
+
 
 .how .sky-carousel .sc-content-container {
 	position: relative;
@@ -213,6 +240,8 @@
 	/*-moz-box-shadow: 0px 2px 1px rgba(44, 44, 44, 0.1);*/
 	min-width: 240px;
 }
+
+
 
 .how .sky-carousel .sc-content-wrapper .sc-content-container .sc-content img{
 
@@ -316,12 +345,12 @@
 
 .how .sky-carousel .sc-nav-button.sc-next {
 	background: url("../img/sc-graphics/test.png") no-repeat -42px 0px;
-  margin-left: 25px;
+  margin-left: 5px;
 }
 
 .how .sky-carousel .sc-nav-button.sc-prev {
   background: url("../img/sc-graphics/test.png") no-repeat 0px 0px;
-  margin-left: -65px;
+  margin-left: -45px;
 }
 
 
@@ -330,9 +359,18 @@
 }
 
 @media (max-width: 460px) {
+
   .how .sky-carousel .sc-nav-button.sc-next {
     right: 20% !important;
   }
+  .how .sky-carousel .sc-content-wrapper {
+    left: 55%;
+  }
+  .how .sky-carousel .sc-nav-button.sc-prev {
+    margin-left: 5px;
+  }
+
+
 }
 
 

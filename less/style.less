@@ -616,6 +616,7 @@ p{
 .how{
   background-color: @brand-primary;
   padding-bottom: 100px;
+  position: relative;
 } //How it Works End
 
 //Contacts Start
@@ -884,9 +885,90 @@ p{
   background-color: black;
 }
 
+.how .carousel-box{
+  border: solid 2px grey;
+  position: absolute;
+  width: 1000px;
+  height: 300px;
+  top: 0px;
+  z-index: 9000;
+  left: 30%;
+
+}
+
+.how  .carousel-box-inner{
+
+  background: #1f1f1f;
+  width:300px;
+  height:100px;
+  position: relative;
+  left:10px;
+
+}
 
 //.container{
 //  max-width: 100% !important;
 //  overflow-x: hidden !important;
 //}
 
+.module {
+  width: 1000px;
+  height: 500px;
+  position: relative;
+  margin: 20px;
+  border-radius: 3px;
+  padding: 12px;
+  box-sizing: padding-box;
+  position: relative;
+  top: 50%;
+
+  border-right: 2px solid #1fa2ed ;
+  border-bottom: 2px solid #1fa2ed;
+  border-top: 2px solid #1fa2ed;
+  z-index: 9000;
+}
+
+.module__top {
+  cursor: move;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9000;
+
+  &:before {
+    border-radius: 3px 0 0 0;
+    display: block;
+    content: "";
+    flex: 2 0 0;
+    width: 1px;
+    border-left: 1px solid #1fa2ed;
+  }
+  &:after {
+    border-radius: 0 3px 0 0;
+    display: block;
+    content: "";
+    flex: 2 0 0;
+    width: 1px;
+    border-left: 1px solid #1fa2ed
+  }
+}
+
+.top__content {
+  height: 26px;
+  color: #1fa2ed;
+  font: 12px/32px Helvetica;
+  font-weight: bold;
+  overflow: hidden;
+  flex: 0 0 70px;
+  margin-top: -18px;
+  text-align: center;
+}
+
+//.module__contents {
+//  background: #606060;
+//  height: 100%;
+//  width: 100%;
+//}

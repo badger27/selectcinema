@@ -16,5 +16,7 @@ $(function() {
     gradientOverlaySize: 0,
     selectByClick: false
   });
+
+
 });
 
