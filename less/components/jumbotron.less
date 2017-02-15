@@ -1,0 +1,37 @@
+
+@import "./js/vendor/bootstrap/less/bootstrap.less";
+
+// Colors
+// --------------------------------------------------
+
+// Basic idea is that "objects" should not have intrinsic color
+// but that color should be added via a class.  However if an object
+// is *always* the same color then you can use the less mixins
+// ==============================================
+// Bad:
+// ==============================================
+// .jumbotron {
+//   padding: 30px;
+//   margin-bottom: 30px;
+//   color: #ffffff;            // should be @white
+//   background-color: #4baad3; // should be @blue
+// }
+//
+// <div class=jumbotron></div>  // no indication of colors - bad
+//
+// ===============================================
+// Good:
+// ===============================================
+// .jumbotron {
+//   padding: 30px;
+//   margin-bottom: 30px;
+//   // color: #ffffff;
+//   // background-color: #4baad3;
+// }
+//
+// .white {      color: @white; }
+// .bg-blue {    background-color: @blue; }
+//
+// <div class=jumbotron bg-blue white></div>  // obvious colors in markup
+//
+// ===============================================

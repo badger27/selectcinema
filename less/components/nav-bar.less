@@ -28,9 +28,10 @@
 
 
 .navbar-nav li:last-child  {
-  padding-left: 10px;
+  padding-left: 5px;
   padding-right: 5px;
   border: solid 2px grey;
+
 
 }
 
@@ -45,17 +46,22 @@
 
 .navbar-nav > li > a {
 
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: @font-family-open-sans;
   font-size: 10px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  letter-spacing: 5px;
-  color: #ffffff;
   letter-spacing: 4px;
-  color: rgba(255,255,255,.50);
-  //border: 2px solid transparent;
-  height: 42px;
+  color: #ffffff;
+  padding: 10px 10px;
+}
+
+@media (min-width : 1224px) {
+
+  .navbar-nav > li > a {
+    font-size: 16px;
+    letter-spacing: 5px;
+  }
 }
 
 
@@ -239,18 +245,44 @@ and (orientation : portrait) {
   }
 }
 
+
+
 //only portrait Ipad
 @media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : portrait) {
 
+  .navbar-nav > li > a {
+    font-size: 5px;
+    letter-spacing: 5px;
+  }
+
   .logo {
-    width:175px;
+    width:100px;
   }
 }
 
 
 
+  .navbar-nav > li > a {
+    padding-top: 12px
 
+  }
+
+
+
+.navbar-nav.navbar-right:last-child {
+  margin-top: 15px;
+  margin-right: -15px;
+}
+
+.nav li a {
+  color: white;
+}
+
+
+.nav li a:active:focus {
+  color: @gold;
+}
 
