@@ -6077,7 +6077,6 @@ subscription {
 .navbar-nav > li {
   padding-left: 10px;
   padding-right: 10px;
-  background: blue;
   height: 100%;
 }
 .navbar-nav li:last-child {
@@ -6222,7 +6221,7 @@ subscription {
   padding-top: 5px;
 }
 .navbar-nav.navbar-right:last-child {
-  margin-right: -25px;
+  margin-right: -55px;
 }
 .nav li a {
   color: white;
@@ -6247,7 +6246,6 @@ subscription {
   font-weight: 300;
   font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 22px;
-  font-weight: 300 !important;
   font-style: normal;
   font-stretch: normal;
   -webkit-font-smoothing: antialiased;

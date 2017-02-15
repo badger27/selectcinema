@@ -1,7 +1,7 @@
 $(function() {
   $('  .how .sky-carousel').carousel({
-    itemWidth: 180,
-    itemHeight: 240,
+    itemWidth: 342,
+    itemHeight: 500,
     distance: 1600,
     startIndex:0,
     selectedItemDistance: 70,
