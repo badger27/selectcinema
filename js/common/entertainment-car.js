@@ -1,19 +1,19 @@
 $(function() {
   $(' .entertain .sky-carousel').carousel({
 
-    itemWidth: 180,
-    itemHeight: 240,
-    distance: 100,
+    itemWidth: 342,
+    itemHeight: 500,
+    distance: 50,
     selectedItemDistance: 10,
     selectedItemZoomFactor: .8,
     unselectedItemZoomFactor: .6,
     unselectedItemAlpha: 0.9,
     motionStartDistance: 200,
     topMargin: 30,
-    slideSpeed: 045,
-    gradientStartPoint: 0.0,
-    gradientOverlayColor: "#292929",
-    gradientOverlaySize: 0,
+
+    gradientStartPoint: .1,
+    gradientOverlayColor: "#1f1f1f",
+    gradientOverlaySize: 100,
     selectByClick: false,
     navigationButtonsVisible:false,
     startIndex:'auto'
@@ -37,3 +37,4 @@ $(document).ready(function(){
   });
 
 });
+

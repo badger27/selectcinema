@@ -6044,16 +6044,20 @@ subscription {
   color: #c5a059;
   width: 100px;
 }
+.btn-outer:active {
+  color: white;
+}
 .btn-outer .btn-inner {
   padding: 5px 5px;
   background: none;
   margin: 5px;
 }
-.btn-outer.btn-inner:active {
-  padding: 5px 5px;
+.btn-outer .btn-inner:hover {
   background: #c5a059;
-  margin: 5px;
-  width: 87px;
+}
+.btn-outer .btn-inner:active {
+  background: #c5a059;
+  color: white;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,

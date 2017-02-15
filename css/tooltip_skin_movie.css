@@ -67,12 +67,12 @@
 	background: url("../img/fantastic-beasts-op.jpg") top center;
 	background-size: cover;
 	padding-bottom: 100px;
-text-align: center;}
+}
 
 .entertain .sky-carousel {
-	width: 80%;
+  width: 100%;
 	height: 500px;
-
+   position: relative;
 	/*border: 1px solid #dbdbdb;*/
 
 	overflow: hidden;
