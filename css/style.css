@@ -6070,7 +6070,7 @@ subscription {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   background: transparent;
-  color: #ffffff;
+  color: #c5a059;
   border-bottom: 2px solid #ffffff;
   height: 42px;
 }
@@ -6220,14 +6220,24 @@ subscription {
 .navbar-nav > li > a {
   padding-top: 5px;
 }
+.navbar-nav > li > a :active {
+  color: #c5a059;
+}
+.navbar-nav > li > a :hover {
+  color: #c5a059;
+}
 .navbar-nav.navbar-right:last-child {
-  margin-right: -55px;
+  margin-right: -25px;
 }
 .nav li a {
   color: white;
   line-height: 58px;
+  font-weight: 300;
 }
-.nav li a:active:focus {
+.nav li a:active {
+  color: #c5a059;
+}
+.nav li a:hover {
   color: #c5a059;
 }
 .welcome {
