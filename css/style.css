@@ -6077,6 +6077,8 @@ subscription {
 .navbar-nav > li {
   padding-left: 10px;
   padding-right: 10px;
+  background: blue;
+  height: 100%;
 }
 .navbar-nav li:last-child {
   padding-left: 5px;
@@ -6101,7 +6103,6 @@ subscription {
   .navbar-nav > li > a {
     font-size: 14px;
     letter-spacing: 5px;
-    padding-top: 25px !important;
   }
 }
 @media (max-width: 480px) {
@@ -6206,8 +6207,11 @@ subscription {
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .navbar-collapse {
+    padding-right: 25px;
+  }
   .navbar-nav > li > a {
-    font-size: 5px;
+    font-size: 6px;
     letter-spacing: 5px;
   }
   .logo {
@@ -6218,11 +6222,11 @@ subscription {
   padding-top: 5px;
 }
 .navbar-nav.navbar-right:last-child {
-  margin-top: 15px;
-  margin-right: -15px;
+  margin-right: -25px;
 }
 .nav li a {
   color: white;
+  line-height: 58px;
 }
 .nav li a:active:focus {
   color: #c5a059;
