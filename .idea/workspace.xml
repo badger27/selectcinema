@@ -2,51 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e13e2b79-f91f-4848-8405-29d3cf2df819" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/2/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/2/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/2/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/2/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/2/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/2/6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Movies01/172770.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Movies01/Arrival-new-character-poster-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Movies01/FANTASTIC-BEASTS-movie-poster2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Movies01/House_of_Cards_Season_4_poster_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Movies01/LaLaLand_Poster_Stars.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Movies01/Moana-2016-Disney-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Movies01/The-LEGO-Batman-Movie-Poster.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Movies01/The-Middle-Key-Art-768x1024.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Movies01/arrow-tv-show-poster.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Movies01/bones_poster5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Movies01/got6_poster_one_digital-copy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Movies01/hacksaw0001.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Movies01/last_man_standing_ver3_xlg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Movies01/modernfamily-poster2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Movies01/new_girl_ver2_xxlg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Movies01/p0ni4fe5j1zx.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Movies01/rogueone_onesheetA.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Movies01/sing2016.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Movies01/the-flash-teaser-poster.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Movies01/white_collar_ver7_xxlg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/movies/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/movies/6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/tooltip_skin_navigation.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/tv/arrow-tv-show-poster.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/movies/2.jpg" afterPath="$PROJECT_DIR$/img/movies/2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/movies/3.jpg" afterPath="$PROJECT_DIR$/img/movies/3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/movies/4.jpg" afterPath="$PROJECT_DIR$/img/movies/4.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.min.css" afterPath="$PROJECT_DIR$/css/style.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/tooltip_skin_gulf.css" afterPath="$PROJECT_DIR$/css/tooltip_skin_gulf.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/common/how-car.js" afterPath="$PROJECT_DIR$/js/common/how-car.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/components/nav-bar.less" afterPath="$PROJECT_DIR$/less/components/nav-bar.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/components/search.less" afterPath="$PROJECT_DIR$/less/components/search.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/components/subscription.less" afterPath="$PROJECT_DIR$/less/components/subscription.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/components/title.less" afterPath="$PROJECT_DIR$/less/components/title.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/style.less" afterPath="$PROJECT_DIR$/less/style.less" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -399,12 +355,12 @@
       <workItem from="1487004695167" duration="15409000" />
       <workItem from="1487067699708" duration="15515000" />
       <workItem from="1487091849782" duration="28441000" />
-      <workItem from="1487173352453" duration="520000" />
+      <workItem from="1487173352453" duration="860000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="188984000" />
+    <option name="totallyTimeSpent" value="189324000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
