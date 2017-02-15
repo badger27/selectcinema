@@ -6048,10 +6048,15 @@ subscription {
 }
 .btn-outer .btn-inner {
   padding: 5px 5px;
+  background: none;
   margin: 5px;
   color: #c5a059;
 }
 .btn-outer .btn-inner:active {
+  background: #c5a059;
+  color: #222222;
+}
+.btn-outer .btn-inner:hover {
   background: #c5a059;
   color: #222222;
 }
