@@ -11,7 +11,7 @@ $(function() {
     motionStartDistance: 200,
     topMargin: 30,
 
-    gradientStartPoint: .1,
+    gradientStartPoint: 0,
     gradientOverlayColor: "#1f1f1f",
     gradientOverlaySize: 100,
     selectByClick: false,

@@ -6030,34 +6030,30 @@ subscription {
   padding-bottom: 100px;
   width: 100%;
 }
-.btn-primary {
-  color: #fff;
-  background-color: #c5a059;
-  border-color: #c5a059;
-  border-style: solid ;
-}
 .btn-outer {
   display: inline-block;
   border: 1px solid #c5a059;
-  font-size: 12px;
   text-align: center;
   color: #c5a059;
-  width: 100px;
+  width: 120px;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 4px;
 }
 .btn-outer:active {
   color: white;
 }
 .btn-outer .btn-inner {
   padding: 5px 5px;
-  background: none;
   margin: 5px;
-}
-.btn-outer .btn-inner:hover {
-  background: #c5a059;
+  color: #c5a059;
 }
 .btn-outer .btn-inner:active {
   background: #c5a059;
-  color: white;
+  color: #222222;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
