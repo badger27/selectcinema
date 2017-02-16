@@ -50,9 +50,6 @@ $(document).ready(function(){
     $('.movie').hide().fadeOut(300, function() { $(this).hide(); });
 
 
-
-
-
     $('.entertain').removeClass('bg1').addClass('bg2');
 
   });

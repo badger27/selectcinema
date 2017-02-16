@@ -6914,3 +6914,9 @@ p {
   -o-transition: background 300ms ease-in 200ms;
   transition: background 300ms ease-in 200ms;
 }
+.tv {
+  width: 100%;
+}
+.movie {
+  width: 100%;
+}
