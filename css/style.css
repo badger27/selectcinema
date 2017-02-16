@@ -5842,11 +5842,11 @@ td.visible-print {
   overflow: hidden;
   position: relative;
   background-color: #1f1f1f;
-  background: url("../img/background.jpg") top left no-repeat !important;
-  background-size: cover !important;
-  padding-bottom: 100px !important;
-  width: 100% !important;
-  height: 100% !important;
+  background-image: url("../img/background_movie.jpg") top left no-repeat;
+  background-size: cover ;
+  padding-bottom: 100px ;
+  width: 100% ;
+  height: 100% ;
 }
 .about {
   overflow: hidden;
@@ -6059,6 +6059,10 @@ subscription {
   color: #c5a059;
 }
 .btn-outer .btn-inner:active {
+  background: #c5a059;
+  color: #222222;
+}
+.btn-outer .btn-inner:visited {
   background: #c5a059;
   color: #222222;
 }
@@ -6893,4 +6897,20 @@ p {
   flex: 0 0 70px;
   margin-top: -18px;
   text-align: center;
+}
+.bg1 {
+  background-image: url(../img/background_movie.jpg);
+  -webkit-transition: background 300ms ease-in 200ms;
+  /* property duration timing-function delay */
+  -moz-transition: background 300ms ease-in 200ms;
+  -o-transition: background 300ms ease-in 200ms;
+  transition: background 300ms ease-in 200ms;
+}
+.bg2 {
+  background-image: url(../img/background_tv.jpg);
+  -webkit-transition: background 300ms ease-in 200ms;
+  /* property duration timing-function delay */
+  -moz-transition: background 300ms ease-in 200ms;
+  -o-transition: background 300ms ease-in 200ms;
+  transition: background 300ms ease-in 200ms;
 }

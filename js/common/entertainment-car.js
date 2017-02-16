@@ -10,10 +10,9 @@ $(function() {
     unselectedItemAlpha: 0.9,
     motionStartDistance: 200,
     topMargin: 30,
-
     gradientStartPoint: 0,
     gradientOverlayColor: "#1f1f1f",
-    gradientOverlaySize: 100,
+    gradientOverlaySize: 0,
     selectByClick: false,
     navigationButtonsVisible:false,
     startIndex:'auto'
@@ -24,16 +23,36 @@ $(function() {
 
 $(document).ready(function(){
 
+
+  $('.entertain').addClass('bg1');
+
   $('.tv').hide();
 
-  $("#showPanel").click(function(){
-    $('.movie').show();
-    $('.tv').hide();
+
+  $("#movie").click(function(){
+
+
+    $('.movie').fadeIn(300, function() { $(this).show(); })
+
+
+    $('.tv').hide().fadeOut(300, function() { $(this).hide(); });
+
+    $('.entertain').removeClass('bg2').addClass('bg1');
+
+
   });
 
-  $("#hidePanel").click(function(){
-    $('.tv').show();
-    $('.movie').hide();
+  $("#tv").click(function(){
+
+
+    $('.tv').show().fadeIn(300, function() { $(this).show(); })
+
+
+    $('.movie').fadeOut(300, function() { $(this).hide(); });
+
+
+    $('.entertain').removeClass('bg1').addClass('bg2');
+
   });
 
 });
