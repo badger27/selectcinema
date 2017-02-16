@@ -44,11 +44,13 @@ $(document).ready(function(){
 
   $("#tv").click(function(){
 
+    $('.tv').fadeIn(300, function() { $(this).show(); })
 
-    $('.tv').show().fadeIn(300, function() { $(this).show(); })
+
+    $('.movie').hide().fadeOut(300, function() { $(this).hide(); });
 
 
-    $('.movie').fadeOut(300, function() { $(this).hide(); });
+
 
 
     $('.entertain').removeClass('bg1').addClass('bg2');
