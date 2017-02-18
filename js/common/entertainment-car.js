@@ -20,6 +20,8 @@ $(document).ready(function(){
 
   $("#tv").click(function(){
     directoryNames  = "tv";
+
+
     getImages(directoryNames);
   });
 
