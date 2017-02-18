@@ -2,7 +2,6 @@ $(document).ready(function(){
 
 
 
-
   var imageNames = [ 1,2,3,4,5,6,7,8,9];
   var imageLength = imageNames.length;
   var directoryNames  = "movies";
