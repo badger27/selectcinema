@@ -1,0 +1,234 @@
+/**
+ *
+ * Sky jQuery Touch Carousel
+ * URL: http://www.skyplugins.com
+ * Version: 1.0.2
+ * Author: Sky Plugins
+ * Author URL: http://www.skyplugins.com
+ *
+ */
+
+/**
+*	Table of Contents
+*
+*	1. Media Queries
+*	2. Container Styles
+*	3. Carousel Item Styles
+*	4. Current Content Styles
+*	5. Gradient Overlay Styles
+*	6. Navigation Styles
+*	7. Preloader Styles
+*	8. Other Styles
+*/
+
+/**********************************************
+*
+* 1. Media Queries
+*
+**********************************************/
+/*@media screen and (-webkit-min-device-pixel-ratio:0) {*/
+	/*html {*/
+		/*margin-left: 1px;*/
+	/*}*/
+/*}*/
+
+/*@media only screen and (min-width: 480px) and (max-width: 767px) {*/
+	/*.entertain .sky-carousel_tv .sc-overlay {*/
+		/*width: 88px !important;*/
+	/*}*/
+/*}*/
+
+/*@media only screen and (max-width: 479px) {*/
+	/*.entertain .sky-carousel_tv .sc-overlay {*/
+		/*width: 15px !important;*/
+	/*}*/
+
+	/*.entertain .sky-carousel_tv .sc-nav-button.sc-next {*/
+		/*right: 35%;*/
+	/*}*/
+
+	/*.entertain  .sky-carousel_tv .sc-nav-button.sc-prev {*/
+		/*left: 35%;*/
+	/*}*/
+/*}*/
+
+/**********************************************
+*
+* 2. Container Styles
+*
+**********************************************/
+.js .entertain .sky-carousel_tv {
+	visibility: hidden;
+}
+
+/*.entertain {*/
+	/*overflow: hidden;*/
+	/*position: relative;*/
+	/*background: url("../img/fantastic-beasts-op.jpg") top center;*/
+	/*background-size: cover;*/
+	/*padding-bottom: 100px;*/
+/*}*/
+
+.entertain .sky-carousel_tv {
+  width: 100%;
+	height: 500px;
+   position: relative;
+	/*border: 1px solid #dbdbdb;*/
+
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.entertain .sky-carousel_tv .sky-carousel-container {
+	position: relative;
+	list-style-type: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+/**********************************************
+*
+* 3. Carousel Item Styles
+*
+**********************************************/
+.entertain .sky-carousel_tv .sky-carousel-container li {
+	position: absolute;
+	border: 0;
+}
+
+.entertain .sky-carousel_tv .sky-carousel-container li img {
+	display: block;
+	max-width: none !important;
+	background-color: #fff;
+	/*border: 1px solid #c9c9c9;*/
+	/*padding: 9px;*/
+	box-shadow: 0px 2px 1px rgba(44, 44, 44, 0.07);
+	-webkit-box-shadow: 0px 2px 1px rgba(44, 44, 44, 0.07);
+	-moz-box-shadow: 0px 2px 1px rgba(44, 44, 44, 0.07);
+}
+
+
+
+.entertain .sky-carousel_tv .sc-content-wrapper h2 {
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 18px;
+	margin: 0 0 2px 0;
+	padding: 0;
+	text-shadow: 0px 1px 1px #333;
+}
+
+.entertain .sky-carousel_tv .sc-content-wrapper p {
+	color: #d6d6d6;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	text-shadow: 0px 1px 1px #333;
+}
+
+.entertain .sky-carousel_tv .sc-content-wrapper a {
+	text-decoration: none;
+	color: #d6d6d6;
+	border-bottom: 1px dotted #d6d6d6;
+}
+
+/**********************************************
+*
+* 5. Gradient Overlay Styles
+*
+**********************************************/
+.entertain .sky-carousel_tv .sc-overlay {
+	position: absolute;
+	height: 100%;
+	z-index: 4998;
+	pointer-events: none;
+	top: 0;
+}
+
+.entertain .sky-carousel_tv .sc-overlay-left {
+	left: -0.1px;
+}
+
+.entertain .sky-carousel_tv .sc-overlay-right {
+	right: -0.1px;
+}
+
+/**********************************************
+*
+* 6. Navigation Styles
+*
+**********************************************/
+.entertain .sky-carousel_tv .sc-nav-button {
+	position: absolute;
+	top: 50%;
+	z-index: 5000;
+	width: 40px;
+	height: 40px;
+	margin-top:  180px;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+}
+
+.entertain .sky-carousel_tv .sc-nav-button.sc-next {
+	background: url("../img/sc-graphics/test.png") no-repeat -42px 0px;
+  margin-left: 25px;
+
+
+}
+
+.entertain .sky-carousel_tv .sc-nav-button.sc-prev {
+  background: url("../img/sc-graphics/test.png") no-repeat 0px 0px;
+
+  margin-left: -65px;
+
+}
+
+
+.no-touch .entertain .sky-carousel_tv .sc-nav-button.sc-next:hover {
+	background: url("../img/sc-graphics/test.png") no-repeat -42px -41px;
+}
+
+
+.no-touch .entertain .sky-carousel_tv .sc-nav-button.sc-prev:hover {
+	background: url("../img/sc-graphics/test.png") no-repeat 0px -41px;
+}
+
+/**********************************************
+*
+* 7. Preloader Styles
+*
+**********************************************/
+.entertain .sky-carousel_tv .sc-preloader {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 24px;
+	height: 24px;
+	margin-top: -22px;
+	margin-left: -22px;
+	background: #ebebeb url("../images/sc-graphics/preloader.gif") no-repeat 50% 50%;
+	padding: 10px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+/**********************************************
+*
+* 8. Other Styles
+*
+**********************************************/
+.sc-no-select {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+  text-align: center;
+
+}

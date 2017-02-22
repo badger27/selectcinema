@@ -17,7 +17,7 @@
 
       <link href="css/tooltip_skin_gulf.css" type="text/css" rel="stylesheet" />
       <link href="css/tooltip_skin_movie.css" type="text/css" rel="stylesheet" />
-
+      <link href="css/tooltip_skin_tv.css" type="text/css" rel="stylesheet" />
       <!-- Styles -->
       <link rel="stylesheet" type="text/css" href="css/style.min.css">
 
@@ -52,6 +52,8 @@
       <script type="text/javascript" src="js/common/entertainment-car.js"></script>
       <script type="text/javascript" src="js/common/how-car.js"></script>
       <script type="text/javascript" src="js/common/smooth-scroll.js"></script>
+      <!--<link rel="stylesheet" href="css/tooltip_skin_tv.css">-->
+
 
 
     </head>
@@ -82,13 +84,16 @@
 
 
              <nav class="collapse navbar-collapse  affix " role="navigation">
-               <a  class="navbar-brand hidden-sm"><img class="logo hidden-sm" src="img/s-c-logo.svg" ></a>
+               <a  class="navbar-brand ">
+                 <img class="logo " src="img/s-c-logo.svg" >
+               </a>
+
                <ul class="nav navbar-nav navbar-right ">
                  <li ><a class="scroll" href="#ab">ABOUT</a></li>
                  <li><a class=""         href="#en">ENTERTAINMENT</a></li>
                  <li><a class=""         href="#su">SUBSCRIPTION</a></li>
                  <li><a                  href="#contact">CONTACT</a></li>
-                 <li><a                  href="#Login">LOGIN</a></li>
+                 <!--<li><a                  href="#Login">LOGIN</a></li>-->
                  <li>
 
                    <a   href="#Login">SIGN IN</a>
@@ -210,9 +215,10 @@
 
 
                   <div class="row">
+
                   <div id="tvid">
 
-                    <div class="sky-carousel">
+                    <div class="sky-carousel_tv">
                       <div class="sky-carousel-wrapper">
                         <ul class="sky-carousel-container">
                           <li>
@@ -239,6 +245,15 @@
                             <img src="img/tv/8.jpg" alt="" />
                           </li>
                           <li>
+                          <img src="img/tv/9.jpg" alt="" />
+                        </li>
+                          <li>
+                            <img src="img/tv/10.jpg" alt="" />
+                          </li>
+                          <li>
+                            <img src="img/tv/8.jpg" alt="" />
+                          </li>
+                          <li>
                             <img src="img/tv/9.jpg" alt="" />
                           </li>
                           <li>
@@ -258,7 +273,7 @@
 
                   <div id="movieid">
 
-                    <div class="sky-carousel">
+                    <div class="sky-carousel_movie">
                       <div class="sky-carousel-wrapper">
                         <ul class="sky-carousel-container">
                           <li>
@@ -299,22 +314,14 @@
                   </div>
                   </div>
 
-
-
-
-
-
                 </div>   <!--Entertain End-->
           </div><!--row End-->
 
 
 
-
-
-
-
         <!--Subscript Start-->
-        <div id="su" class="subscription section-center">
+        <div id="su" >
+        <div class="subscription section-center">
           <div class="row">
 
 
@@ -399,25 +406,24 @@
                     </div>
                     </div>
 
-
-
-
         </div>  <!-- How End-->
 
+          <br>
 
+        </div>
 
 
         <!-- Contact Start-->
 
 
-            <div  id="contact" class="contact-form">
+            <div    class="contact-form" >
               <div  class="container "  style="background: #c6a059;">
               <div  class="row">
 
 
               <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                  <h2 class="form-title">Contact Us </h2>
+                <div  id="contact" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center ">
+                  <h2  class="form-title">Contact Us </h2>
                 </div>
 
 
@@ -446,45 +452,21 @@
                       <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" tabindex="2">
                     </div>
 
-                    <!--<div class="form-group">-->
-                      <!--&lt;!&ndash;<label class="form-label" id="subjectLabel" for="sublect"></label>&ndash;&gt;-->
-                      <!--&lt;!&ndash;<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" tabindex="3">&ndash;&gt;-->
-
-                      <!--<div class="special-input">-->
-
-                        <!--<div class="select" tabindex="1">-->
-                          <!--<input class="selectopt" name="test" type="radio" id="opt1" checked>-->
-                          <!--<label for="opt1" class="option">Questions</label>-->
-                          <!--<input class="selectopt" name="test" type="radio" id="opt2">-->
-                          <!--<label for="opt2" class="option">Interested in Movies?</label>-->
-                          <!--<input class="selectopt" name="test" type="radio" id="opt3">-->
-                          <!--<label for="opt3" class="option">Interested in Tv?</label>-->
-                          <!--<input class="selectopt" name="test" type="radio" id="opt4">-->
-                          <!--<label for="opt4" class="option">Interested in Movies?</label>-->
-                          <!--<input class="selectopt" name="test" type="radio" id="opt5">-->
-                          <!--<label for="opt5" class="option">Watermelon</label>-->
-                        <!--</div>-->
-
-                    <!--</div>-->
-                    <!--</div>-->
 
                     <div class="form-group" style="margin-bottom: 150px;">
                       <label class="form-label" id="messageLabel" for="message"></label>
                       <input type="text" class="form-control" id="message" name="subject" placeholder="Your Message" tabindex="3">
                     </div>
 
-
-                    <!--<div class="form-group">-->
-                      <!--<label class="form-label" id="messageLabel" for="message"></label>-->
-                      <!--<textarea type="text" rows="6" cols="60" name="message" class="form-control" id="message" placeholder="Your message" tabindex="4"></textarea>-->
-                    <!--</div>-->
-
-
                     <div class="text-right margin-top-25 margin-bottom-25"  style="margin-bottom: 100px;">
                       <button type="submit" class="btn btn-mod btn-border btn-large right">Send </button>
                     </div>
 
-                  </form><!-- End form -->
+                  </form>
+
+
+                   <div style="height: 150px; background: #c6a059"  ></div>
+
 
                 </div><!-- End col -->
 
@@ -492,11 +474,10 @@
 
 
 
+
+
+
             </div><!-- End container -->
-
-
-
-
           </div><!-- Contact End-->
         </div><!--Row End-->
 

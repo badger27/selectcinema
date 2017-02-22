@@ -26,38 +26,38 @@
 * 1. Media Queries
 *
 **********************************************/
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-	html {
-		margin-left: 1px;
-	}
-}
+/*@media screen and (-webkit-min-device-pixel-ratio:0) {*/
+	/*html {*/
+		/*margin-left: 1px;*/
+	/*}*/
+/*}*/
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-	.entertain .sky-carousel .sc-overlay {
-		width: 88px !important;
-	}
-}
+/*@media only screen and (min-width: 480px) and (max-width: 767px) {*/
+	/*.entertain .sky-carousel_movie .sc-overlay {*/
+		/*width: 88px !important;_movie;*/
+	/*}*/
+/*}*/
 
-@media only screen and (max-width: 479px) {
-	.entertain .sky-carousel .sc-overlay {
-		width: 15px !important;
-	}
+/*@media only screen and (max-width: 479px) {*/
+	/*.entertain .sky-carousel_movie .sc-overlay {*/
+		/*width: 15px !important;*/
+	/*}*/
 
-	.entertain .sky-carousel .sc-nav-button.sc-next {
-		right: 35%;
-	}
+	/*.entertain .sky-carousel_movie .sc-nav-button.sc-next {*/
+		/*right: 35%;*/
+	/*}*/
 
-	.entertain  .sky-carousel .sc-nav-button.sc-prev {
-		left: 35%;
-	}
-}
+	/*.entertain  .sky-carousel_movie .sc-nav-button.sc-prev {*/
+		/*left: 35%;*/
+	/*}*/
+/*}*/
 
 /**********************************************
 *
 * 2. Container Styles
 *
 **********************************************/
-.js .entertain .sky-carousel {
+.js .entertain .sky-carousel_movie {
 	visibility: hidden;
 }
 
@@ -69,7 +69,7 @@
 	/*padding-bottom: 100px;*/
 /*}*/
 
-.entertain .sky-carousel {
+.entertain .sky-carousel_movie {
   width: 100%;
 	height: 500px;
    position: relative;
@@ -79,7 +79,7 @@
 	margin: 0 auto;
 }
 
-.entertain .sky-carousel .sky-carousel-container {
+.entertain .sky-carousel_movie .sky-carousel-container {
 	position: relative;
 	list-style-type: none;
 	float: left;
@@ -92,12 +92,12 @@
 * 3. Carousel Item Styles
 *
 **********************************************/
-.entertain .sky-carousel .sky-carousel-container li {
+.entertain .sky-carousel_movie .sky-carousel-container li {
 	position: absolute;
 	border: 0;
 }
 
-.entertain .sky-carousel .sky-carousel-container li img {
+.entertain .sky-carousel_movie .sky-carousel-container li img {
 	display: block;
 	max-width: none !important;
 	background-color: #fff;
@@ -110,7 +110,7 @@
 
 
 
-.entertain .sky-carousel .sc-content-wrapper h2 {
+.entertain .sky-carousel_movie .sc-content-wrapper h2 {
 	color: #fff;
 	font-weight: bold;
 	font-size: 18px;
@@ -120,7 +120,7 @@
 	text-shadow: 0px 1px 1px #333;
 }
 
-.entertain .sky-carousel .sc-content-wrapper p {
+.entertain .sky-carousel_movie .sc-content-wrapper p {
 	color: #d6d6d6;
 	font-size: 12px;
 	margin: 0;
@@ -128,7 +128,7 @@
 	text-shadow: 0px 1px 1px #333;
 }
 
-.entertain .sky-carousel .sc-content-wrapper a {
+.entertain .sky-carousel_movie .sc-content-wrapper a {
 	text-decoration: none;
 	color: #d6d6d6;
 	border-bottom: 1px dotted #d6d6d6;
@@ -139,7 +139,7 @@
 * 5. Gradient Overlay Styles
 *
 **********************************************/
-.entertain .sky-carousel .sc-overlay {
+.entertain .sky-carousel_movie .sc-overlay {
 	position: absolute;
 	height: 100%;
 	z-index: 4998;
@@ -147,11 +147,11 @@
 	top: 0;
 }
 
-.entertain .sky-carousel .sc-overlay-left {
+.entertain .sky-carousel_movie .sc-overlay-left {
 	left: -0.1px;
 }
 
-.entertain .sky-carousel .sc-overlay-right {
+.entertain .sky-carousel_movie .sc-overlay-right {
 	right: -0.1px;
 }
 
@@ -160,7 +160,7 @@
 * 6. Navigation Styles
 *
 **********************************************/
-.entertain .sky-carousel .sc-nav-button {
+.entertain .sky-carousel_movie .sc-nav-button {
 	position: absolute;
 	top: 50%;
 	z-index: 5000;
@@ -173,14 +173,14 @@
 	-o-transition: all 0.3s;
 }
 
-.entertain .sky-carousel .sc-nav-button.sc-next {
+.entertain .sky-carousel_movie .sc-nav-button.sc-next {
 	background: url("../img/sc-graphics/test.png") no-repeat -42px 0px;
   margin-left: 25px;
 
 
 }
 
-.entertain .sky-carousel .sc-nav-button.sc-prev {
+.entertain .sky-carousel_movie .sc-nav-button.sc-prev {
   background: url("../img/sc-graphics/test.png") no-repeat 0px 0px;
 
   margin-left: -65px;
@@ -188,12 +188,12 @@
 }
 
 
-.no-touch .entertain .sky-carousel .sc-nav-button.sc-next:hover {
+.no-touch .entertain .sky-carousel_movie .sc-nav-button.sc-next:hover {
 	background: url("../img/sc-graphics/test.png") no-repeat -42px -41px;
 }
 
 
-.no-touch .entertain .sky-carousel .sc-nav-button.sc-prev:hover {
+.no-touch .entertain .sky-carousel_movie .sc-nav-button.sc-prev:hover {
 	background: url("../img/sc-graphics/test.png") no-repeat 0px -41px;
 }
 
@@ -202,7 +202,7 @@
 * 7. Preloader Styles
 *
 **********************************************/
-.entertain .sky-carousel .sc-preloader {
+.entertain .sky-carousel_movie .sc-preloader {
 	position: absolute;
 	left: 50%;
 	top: 50%;
