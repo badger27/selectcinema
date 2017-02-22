@@ -17,7 +17,8 @@ $(document).ready(function(){
     gradientOverlaySize: 0,
     selectByClick: false,
     navigationButtonsVisible :false,
-    enableMouseWheel:false
+    enableMouseWheel:false,
+    selectByClick: true
   });
 
 
@@ -40,7 +41,8 @@ $(document).ready(function(){
       gradientOverlaySize: 0,
       selectByClick: false,
       navigationButtonsVisible :false,
-      enableMouseWheel:false
+      enableMouseWheel:false,
+      selectByClick: true
     });
   }
 
@@ -61,7 +63,8 @@ $(document).ready(function(){
       gradientOverlaySize: 0,
       selectByClick: false,
       navigationButtonsVisible :false,
-      enableMouseWheel:false
+      enableMouseWheel:false,
+      selectByClick: true
     });
   }
 
@@ -89,8 +92,9 @@ $(document).ready(function(){
     $('.sky-carousel_first').remove();
 
     getTV();
-    $('  .sky-carousel_tv').show();
     $('  .sky-carousel_movie').hide();
+    $('  .sky-carousel_tv').show();
+
 
     $('.entertain').removeClass('bg1').addClass('bg2');
 
