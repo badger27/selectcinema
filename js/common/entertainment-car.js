@@ -16,7 +16,8 @@ $(document).ready(function(){
     gradientOverlayColor: "#1f1f1f",
     gradientOverlaySize: 0,
     selectByClick: false,
-    navigationButtonsVisible :false
+    navigationButtonsVisible :false,
+    enableMouseWheel:false
   });
 
 
@@ -38,7 +39,8 @@ $(document).ready(function(){
       gradientOverlayColor: "#1f1f1f",
       gradientOverlaySize: 0,
       selectByClick: false,
-      navigationButtonsVisible :false
+      navigationButtonsVisible :false,
+      enableMouseWheel:false
     });
   }
 
@@ -58,7 +60,8 @@ $(document).ready(function(){
       gradientOverlayColor: "#1f1f1f",
       gradientOverlaySize: 0,
       selectByClick: false,
-      navigationButtonsVisible :false
+      navigationButtonsVisible :false,
+      enableMouseWheel:false
     });
   }
 
