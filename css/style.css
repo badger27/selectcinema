@@ -6118,11 +6118,6 @@ subscription {
     padding-right: 0px;
   }
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  .navbar-nav.navbar-right:last-child {
-    margin-right: 5px;
-  }
-}
 .navbar-nav > li > a:hover,
 .navbar-nav > li > a:focus {
   background-color: transparent;
@@ -6227,7 +6222,10 @@ subscription {
     letter-spacing: 5px;
   }
   .logo {
-    width: 100px;
+    width: 150px;
+  }
+  .navbar-nav.navbar-right:last-child {
+    margin-right: -20px !important;
   }
 }
 .navbar-nav > li > a {
@@ -6240,7 +6238,7 @@ subscription {
   color: #c5a059;
 }
 .navbar-nav.navbar-right:last-child {
-  margin-right: -25px;
+  margin-right: -55px;
 }
 .nav li a {
   color: white;
@@ -6928,4 +6926,8 @@ p {
 }
 .movie {
   width: 100%;
+}
+.correct {
+  height: 200px;
+  background: #c6a059;
 }

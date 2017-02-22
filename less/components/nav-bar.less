@@ -88,19 +88,19 @@ and (orientation : portrait) {
 
 
 
-
-
-//only portrait Ipad
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : portrait) {
-
-  .navbar-nav.navbar-right:last-child {
-    margin-right: 5px;
-  }
-}
-
+//
+//
+////only portrait Ipad
+//@media only screen
+//and (min-device-width : 768px)
+//and (max-device-width : 1024px)
+//and (orientation : portrait) {
+//
+//  .navbar-nav.navbar-right:last-child {
+//    margin-right: 5px;
+//  }
+//}
+//
 
 
 .navbar-nav > li > a:hover,
@@ -251,8 +251,14 @@ and (orientation : portrait) {
   }
 
   .logo {
-    width:100px;
+    width:150px;
   }
+
+  .navbar-nav.navbar-right:last-child {
+
+    margin-right: -20px !important;
+  }
+
 }
 
 
@@ -276,7 +282,7 @@ and (orientation : portrait) {
 
 .navbar-nav.navbar-right:last-child {
 
-  margin-right: -25px;
+  margin-right: -55px;
 }
 
 .nav li a {

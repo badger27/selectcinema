@@ -18,9 +18,13 @@ $(document).ready(function(){
     gradientStartPoint: 0,
     gradientOverlayColor: "#1f1f1f",
     gradientOverlaySize: 0,
-    selectByClick: false
+    selectByClick: false,
+    navigationButtonsVisible :false
   });
 
+
+  $('.sky-carousel_tv').hide();
+  $('.sky-carousel_movie').hide();
   function getTV () {
 
     $('.sky-carousel_tv').carousel({
@@ -36,7 +40,8 @@ $(document).ready(function(){
       gradientStartPoint: 0,
       gradientOverlayColor: "#1f1f1f",
       gradientOverlaySize: 0,
-      selectByClick: false
+      selectByClick: false,
+      navigationButtonsVisible :false
     });
   }
 
@@ -55,7 +60,8 @@ $(document).ready(function(){
       gradientStartPoint: 0,
       gradientOverlayColor: "#1f1f1f",
       gradientOverlaySize: 0,
-      selectByClick: false
+      selectByClick: false,
+      navigationButtonsVisible :false
     });
   }
 
