@@ -2,9 +2,6 @@
 
 $(document).ready(function(){
 
-
-
-
   $('.sky-carousel_first').carousel({
     itemWidth: 342,
     itemHeight: 500,
