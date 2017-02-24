@@ -5,7 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.min.css" afterPath="$PROJECT_DIR$/css/style.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/components/nav-bar.less" afterPath="$PROJECT_DIR$/less/components/nav-bar.less" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -46,8 +45,8 @@
       <file leaf-file-name="nav-bar.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/less/components/nav-bar.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="149" column="22" lean-forward="true" selection-start-line="149" selection-start-column="22" selection-end-line="149" selection-end-column="22" />
+            <state relative-caret-position="235">
+              <caret line="177" column="26" lean-forward="true" selection-start-line="177" selection-start-column="26" selection-end-line="177" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -127,7 +126,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>button</find>
       <find>carousel</find>
       <find>.how</find>
       <find>sc-content-wrapper</find>
@@ -157,6 +155,7 @@
       <find>.navbar-nav.navbar-right:last-child</find>
       <find>btn-inner</find>
       <find>.navbar-collapse</find>
+      <find>navbar</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/.bower-cache</dir>
@@ -410,12 +409,12 @@
       <workItem from="1487784844163" duration="640000" />
       <workItem from="1487841991971" duration="981000" />
       <workItem from="1487856451300" duration="1196000" />
-      <workItem from="1487931773597" duration="6750000" />
+      <workItem from="1487931773597" duration="6979000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="306387000" />
+    <option name="totallyTimeSpent" value="306616000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-12" y="23" width="1440" height="873" extended-state="0" />
@@ -772,8 +771,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/less/components/nav-bar.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="149" column="22" lean-forward="true" selection-start-line="149" selection-start-column="22" selection-end-line="149" selection-end-column="22" />
+        <state relative-caret-position="235">
+          <caret line="177" column="26" lean-forward="true" selection-start-line="177" selection-start-column="26" selection-end-line="177" selection-end-column="26" />
           <folding />
         </state>
       </provider>

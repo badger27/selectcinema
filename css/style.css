@@ -6167,12 +6167,15 @@ subscription {
   .navbar-nav li:last-child {
     border: none;
   }
+  .navbar-toggle {
+    z-index: 9001;
+  }
 }
 .navbar-toggle {
   border: 2px solid #c5a059;
   margin-right: 30px;
   margin-top: 30px;
-  z-index: 9001;
+  z-index: 9001 !important;
 }
 .navbar-toggle .icon-bar {
   display: block;
