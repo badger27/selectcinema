@@ -6114,7 +6114,7 @@ subscription {
 }
 @media (max-width: 480px) {
   .navbar-collapse {
-    background: #c5a059;
+    background: black;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
@@ -6155,7 +6155,7 @@ subscription {
   .navbar-collapse {
     margin: 0;
     padding-left: 0px;
-    background: #c5a059;
+    background: black;
     width: 100%;
   }
   .navbar-brand {
@@ -6172,6 +6172,7 @@ subscription {
   border: 2px solid #c5a059;
   margin-right: 30px;
   margin-top: 30px;
+  z-index: 9001;
 }
 .navbar-toggle .icon-bar {
   display: block;
