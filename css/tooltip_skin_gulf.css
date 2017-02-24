@@ -343,7 +343,7 @@ and (orientation : portrait) {
 
 @media (max-width: 460px) {
   .how .sky-carousel .sc-nav-button {
-    top: 53% !important;
+    top: 65% !important;
   }
 }
 

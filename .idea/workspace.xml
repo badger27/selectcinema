@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e13e2b79-f91f-4848-8405-29d3cf2df819" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/tooltip_skin_gulf.css" afterPath="$PROJECT_DIR$/css/tooltip_skin_gulf.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+            <state relative-caret-position="106">
+              <caret line="220" column="60" lean-forward="false" selection-start-line="220" selection-start-column="60" selection-end-line="220" selection-end-column="60" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#ul#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -40,11 +41,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nav-bar.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less/components/nav-bar.less">
+      <file leaf-file-name="entertainment.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less/components/entertainment.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="177" column="26" lean-forward="true" selection-start-line="177" selection-start-column="26" selection-end-line="177" selection-end-column="26" />
+            <state relative-caret-position="90">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tooltip_skin_gulf.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/tooltip_skin_gulf.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="346" column="3" lean-forward="true" selection-start-line="346" selection-start-column="3" selection-end-line="346" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -53,7 +64,7 @@
       <file leaf-file-name="entertainment-car.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/common/entertainment-car.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
+            <state relative-caret-position="532">
               <caret line="99" column="12" lean-forward="true" selection-start-line="99" selection-start-column="12" selection-end-line="99" selection-end-column="12" />
               <folding />
             </state>
@@ -124,8 +135,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.how</find>
-      <find>sc-content-wrapper</find>
       <find>form-grouo</find>
       <find>car</find>
       <find>pre</find>
@@ -154,6 +163,8 @@
       <find>.navbar-collapse</find>
       <find>navbar</find>
       <find>navbar-t</find>
+      <find>.how .sky-carousel .sc-nav-butto</find>
+      <find>.how .sky-carousel .sc-nav-button</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/.bower-cache</dir>
@@ -189,7 +200,6 @@
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/less/components/welcome.less" />
         <option value="$PROJECT_DIR$/js/common/how-car.js" />
-        <option value="$PROJECT_DIR$/css/tooltip_skin_gulf.css" />
         <option value="$PROJECT_DIR$/less/components/entertainment.less" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/tooltip_skin_first.css" />
@@ -200,6 +210,7 @@
         <option value="$PROJECT_DIR$/less/components/buttons.less" />
         <option value="$PROJECT_DIR$/less/components/nav-bar.less" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/tooltip_skin_gulf.css" />
       </list>
     </option>
   </component>
@@ -279,6 +290,34 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="selectcinema" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="selectcinema" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css-cus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="selectcinema" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="selectcinema" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -407,12 +446,12 @@
       <workItem from="1487784844163" duration="640000" />
       <workItem from="1487841991971" duration="981000" />
       <workItem from="1487856451300" duration="1196000" />
-      <workItem from="1487931773597" duration="7345000" />
+      <workItem from="1487931773597" duration="8974000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="306982000" />
+    <option name="totallyTimeSpent" value="308611000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="75" y="23" width="1440" height="873" extended-state="0" />
@@ -648,20 +687,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/components/entertainment.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/tooltip_skin_gulf.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="377" column="3" lean-forward="false" selection-start-line="377" selection-start-column="3" selection-end-line="377" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/common/smooth-scroll.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -729,14 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/common/entertainment-car.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="99" column="12" lean-forward="true" selection-start-line="99" selection-start-column="12" selection-end-line="99" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less/style.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -761,10 +778,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/common/entertainment-car.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="99" column="12" lean-forward="true" selection-start-line="99" selection-start-column="12" selection-end-line="99" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        <state relative-caret-position="106">
+          <caret line="220" column="60" lean-forward="false" selection-start-line="220" selection-start-column="60" selection-end-line="220" selection-end-column="60" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#ul#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -772,6 +797,22 @@
             <element signature="n#ul#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/components/entertainment.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/tooltip_skin_gulf.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="346" column="3" lean-forward="true" selection-start-line="346" selection-start-column="3" selection-end-line="346" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
