@@ -6061,14 +6061,18 @@ subscription {
 .btn-outer .btn-inner:active {
   background: #c5a059;
   color: #222222;
-}
-.btn-outer .btn-inner:visited {
-  background: #c5a059;
-  color: #222222;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 .btn-outer .btn-inner:hover {
   background: #c5a059;
   color: #222222;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
