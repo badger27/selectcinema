@@ -14,6 +14,7 @@ $(function() {
     gradientStartPoint: 0.0,
     gradientOverlayColor: "#292929",
     gradientOverlaySize: 0,
+    enableKeyboard: false,
     selectByClick: false
   });
 

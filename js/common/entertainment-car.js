@@ -18,7 +18,6 @@ $(document).ready(function(){
     selectByClick: false,
     navigationButtonsVisible :false,
     enableMouseWheel:false,
-    enableKeyboard: false,
     selectByClick: true
   });
 
@@ -43,7 +42,6 @@ $(document).ready(function(){
       selectByClick: false,
       navigationButtonsVisible :false,
       enableMouseWheel:false,
-      enableKeyboard: false,
       selectByClick: true
 
 
@@ -68,7 +66,6 @@ $(document).ready(function(){
       selectByClick: false,
       navigationButtonsVisible :false,
       enableMouseWheel:false,
-      enableKeyboard: false,
       selectByClick: true
 
 
