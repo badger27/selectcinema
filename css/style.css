@@ -5879,6 +5879,7 @@ td.visible-print {
   border-style: none none solid none;
   border-radius: 0;
   border-color: #000;
+  color: red !important;
 }
 .form-control {
   background: #c6a059;
@@ -6048,6 +6049,7 @@ subscription {
   font-style: normal;
   font-stretch: normal;
   letter-spacing: 4px;
+  cursor: pointer;
 }
 .btn-outer:active {
   color: white;
